@@ -1,0 +1,66 @@
+{
+  "model_key": "swinv2_deploy",
+  "status": "OK",
+  "registry": {
+    "model_key": "swinv2_deploy",
+    "repo": "haywoodsloan/ai-image-detector-deploy",
+    "revision": "4ae1822603cb1ec980c217cfde1ef1b8e0477a16",
+    "architecture": "Swinv2ForImageClassification",
+    "basis": "Swinv2 backbone fine-tuned for artificial-vs-real detection",
+    "license": "apache-2.0",
+    "ai_label": null,
+    "batch_size": 16,
+    "notes": "Second-generation Swin; training corpus differs from swin_sdxl."
+  },
+  "metadata": {
+    "repo": "haywoodsloan/ai-image-detector-deploy",
+    "requested_revision": "4ae1822603cb1ec980c217cfde1ef1b8e0477a16",
+    "snapshot_dir": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\models\\hf_cache\\models--haywoodsloan--ai-image-detector-deploy\\snapshots\\4ae1822603cb1ec980c217cfde1ef1b8e0477a16",
+    "snapshot_files": {
+      "config.json": "c589bc2ce35f5cda9e978939a3d6e77a0c1f5d83bcd69cf6006e74e8b84b971f",
+      "model.safetensors": "3a4439d47a41dc62ef1b4ca5067f2954da0652e8c3ced36705820adc6c1abe31",
+      "preprocessor_config.json": "e6454a33e41423972799327db81ca10509ac30daf664123591a1dbd8ddf9e470",
+      "README.md": "333f0b172fb487f31e42c67f9975bc96130535168fbfbe6250eb1dc62d299370",
+      "training_args.bin": "96bf2e99106e3c60cff8fa494aeff2efb2392fbb9580502f7fa416fcaadd7456",
+      "training_params.json": "56c3e667bb6c35fa3dcc55852e99ff9bd669459ec6190d67327cefc909d86846"
+    },
+    "id2label": {
+      "0": "artificial",
+      "1": "real"
+    },
+    "ai_index": 0,
+    "ai_label": "artificial",
+    "architectures": [
+      "Swinv2ForImageClassification"
+    ],
+    "num_parameters": 195206006,
+    "device": "cuda:0",
+    "batch_size": 16
+  },
+  "config_fingerprint": {
+    "repo": "haywoodsloan/ai-image-detector-deploy",
+    "revision": "4ae1822603cb1ec980c217cfde1ef1b8e0477a16",
+    "checkpoint_hash": "98cc79f4820baf6df19057f8407a5947d4cf07b79b25ca276e1203e6e072a4ca",
+    "preprocess_hash": "6b12f248b5d8e2a8b6e1d6a40a351bbf42bfb59600b5042186029f655f042c45",
+    "orientation": "higher_is_ai",
+    "ai_index": 0,
+    "batch_size": 16,
+    "device": "cuda:0"
+  },
+  "load_seconds": 2.96,
+  "score_seconds": 3.21,
+  "n_scored": 80,
+  "n_failed": 0,
+  "tech_auc": 0.92125,
+  "tech_n": 80,
+  "repeat_inference": {
+    "n": 32,
+    "batch_size": 16,
+    "max_abs_diff": 0.0,
+    "max_allowed": 1.0980741739273072e-05,
+    "atol": 1e-06,
+    "rtol": 1e-05,
+    "passes": true,
+    "seconds": 1.24
+  }
+}

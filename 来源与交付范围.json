@@ -1,0 +1,24 @@
+{
+  "created_date": "2026-10-26",
+  "input_path": "/mnt/data/研究切口建议_数字代理评测与真实翻拍选型_v2(1).md",
+  "input_sha256": "53be5a9d39b86fb18a1d7644d80313a21a49140683bc1f87a990baaddbd1bfa3",
+  "read_source": "九阶段主大纲全文、速查表与原执行包；本轮只迁移执行职责",
+  "research_experiments_run": false,
+  "new_web_literature_search": false,
+  "notes": "执行主体与逻辑角色调整；数值参数、预测卡、结果模板、任务内容及科学验收不变；未修改原企划和AGENTS。",
+  "upstream_record": {
+    "created_date": "2026-10-26",
+    "input_path": "/mnt/data/研究切口建议_数字代理评测与真实翻拍选型_v2(1).md",
+    "input_sha256": "53be5a9d39b86fb18a1d7644d80313a21a49140683bc1f87a990baaddbd1bfa3",
+    "read_source": "切口v2全文及当前对话中可见内容",
+    "research_experiments_run": false,
+    "new_web_literature_search": false,
+    "notes": "阶段、阈值与排期为新增执行建议；原稿和旧AGENTS均未覆盖。"
+  },
+  "migration_version": "1.1-Harness",
+  "software_executor": "DeepSeek Harness",
+  "input_execution_package": "/mnt/data/数字代理选型_EXAM01-09_执行大纲与模板包.zip",
+  "input_execution_package_sha256": "bfd5b7b09ec369cb6ffc68bb81175bf7f7011a43365b01bbf1475f5f23e7b60e",
+  "actual_harness_connected": false,
+  "actual_harness_started": false
+}

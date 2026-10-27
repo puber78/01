@@ -1,0 +1,30 @@
+{
+  "run_id": "run_20261026T095631Z_080bd9fd",
+  "exam02_run": "run_20261026T095424Z_ee9c728e",
+  "n_tech": 20,
+  "n_main": 264,
+  "n_main_unique": 240,
+  "n_main_repeats": 24,
+  "sessions": {
+    "tech": 20,
+    "main_s0": 66,
+    "main_s1": 66,
+    "main_s2": 66,
+    "main_s3": 66
+  },
+  "files": {
+    "captures/kit/capture_protocol.md": "5445ff09df5e11df1224e7731be11c7f37c2c99d1e8f9940af5b27fb00d09006",
+    "captures/kit/checklist_main.csv": "6bcf3fcb04ff43e50e9018a53100d56df289e9a1b8c3bbd9c08009b9f3987bf9",
+    "captures/kit/checklist_tech.csv": "9895377fb3373bc6773d7de2d536e8f326384fe774ebda613429f253000e192c",
+    "captures/kit/queue_main_s1.json": "b410aaa8061bea43eb05a4803d35271507f10c4c25d8fc674d9fa1f7149f197d",
+    "captures/kit/queue_main_s2.json": "1086c9ab81a31f70691d8a02d1387b1c8c235c89dae7622766dbc5e02aac1080",
+    "captures/kit/queue_main_s3.json": "c077848dc60c16ce8e22accca170e81876b7f71d33d7acc1f9c1900d9d664564",
+    "captures/kit/queue_main_s4.json": "bb955cb64eb9c0181d036b7907543b39a0a8b5029a9af182cc75b85f86b7bcf1",
+    "captures/kit/queue_tech.json": "00846cfcf7aa9658c1a95c25fef59a5439d43c7fdefdde1d818d3053014f4ed4",
+    "captures/kit/run_main_s1.bat": "f61ac81fdb9b73d0aa441df743113685aa32da6766d3dca7e3ea109faa1506ff",
+    "captures/kit/run_main_s2.bat": "ae2352594a4773e1afa44964f75858512b5245cc89774fd7f03553d9044402d0",
+    "captures/kit/run_main_s3.bat": "2c96aa8c51b583014d4688d0d5743a43db612560581d8a1e7a617259f94d4f5c",
+    "captures/kit/run_main_s4.bat": "2e983a937a8a7cbc66b98eda4a7332794333bc30bbb61b1819963a0f9831d8b2",
+    "captures/kit/run_tech.bat": "295e1dbd0b5969454736aec68aa6c4d103bb20ed3d16d8ed1457428f38ac0d31"
+  }
+}

@@ -1,0 +1,43 @@
+prediction_id: PREDICTION01
+exam_id: EXAM01
+status: FROZEN_BY_EXECUTOR_PENDING_PRINCIPAL_REVIEW
+frozen_at: "2026-10-26T08:55:00Z"
+frozen_before_any_scientific_evaluation: true
+type: engineering_expectation
+statement: >-
+  相同输入、检查点和预处理，在固定计算设置下应得到可复核的评分；数据角色、分数方向
+  和配对统计不应在软件流转中改变。这是工程预期，不是检测性能假设。
+input_scope: >-
+  本轮输入为执行包、公共技术样本（COCO 真实摄影 / ELSA1M 扩散生成，TECH 角色）与
+  6 个冻结公开检查点；未使用任何物理翻拍数据、未接触 T_pilot。
+permitted_data_roles: [TECH]
+expected_properties:
+  - id: E1
+    statement: 同一模型同一图像两次推理的分数差满足 |s1-s2| <= 1e-6 + 1e-5*|s2|
+  - id: E2
+    statement: 同一模型的选择差值严格为 0（同一实现、同一数据）
+  - id: E3
+    statement: AUC 对标签方向敏感，分数取反后 AUC -> 1-AUC
+  - id: E4
+    statement: regret 差恒等式 R(S1)-R(S2) = A(m_S2)-A(m_S1) 在 1e-12 容差内成立
+  - id: E5
+    statement: 非负权重族的可选集合可由单纯形线性可行性判定；被逐分量占优的候选不可选
+  - id: E6
+    statement: 缺失分数以显式失败码记录，绝不以 0 或 0.5 填补
+tolerances:
+  inference_atol: 1.0e-06
+  inference_rtol: 1.0e-05
+  metric_reproduction_atol: 1.0e-10
+  regret_identity_atol: 1.0e-12
+threshold_source: 本轮建议值；由研究负责人批准后才可用于科学判定
+primary_budget_groups: null
+delta_auc_proposed: null
+epsilon_auc_proposed: null
+direction: higher_is_ai
+multiplicity_family: null
+approver: null
+actual_predictions_path: scores/EXAM01/
+result_path: results/RESULT01.json
+note: >-
+  工程卡在打分前冻结；不包含任何 AUC 期望值或性能门槛。技术样本 AUC 仅用于
+  工程审计，不用于候选筛选或科学结论。

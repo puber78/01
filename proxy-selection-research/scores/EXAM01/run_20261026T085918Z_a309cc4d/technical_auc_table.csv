@@ -1,0 +1,7 @@
+model_id,image_branch,transform_id,n,n_ai,n_real,auc,status
+mdl_1ac28aa8c2d55decacd81916,digital,clean_tech,80,40,40,0.84875,ok
+mdl_36f44b70676c5d4993a462ff,digital,clean_tech,80,40,40,0.524375,ok
+mdl_5aea9eccc5ab5f0985c6eb84,digital,clean_tech,80,40,40,0.3121875,ok
+mdl_a033390521785af9a0cea398,digital,clean_tech,80,40,40,0.508125,ok
+mdl_be319390f1da5c9288088003,digital,clean_tech,80,40,40,0.92125,ok
+mdl_be8823ef8ded5831be8bae98,digital,clean_tech,80,40,40,0.826875,ok

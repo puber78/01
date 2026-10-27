@@ -1,0 +1,31 @@
+{
+  "run_id": "run_20261026T095424Z_ee9c728e",
+  "roles": {
+    "C_pool": {
+      "photo": 40,
+      "ai": 40,
+      "display_assets": 80
+    },
+    "T_pilot": {
+      "photo": 80,
+      "ai": 80,
+      "display_assets": 160
+    },
+    "D_sel": {
+      "photo": 100,
+      "ai": 100,
+      "display_assets": 200
+    }
+  },
+  "n_sources": 440,
+  "n_display_assets": 440,
+  "canvas": [
+    2560,
+    1440
+  ],
+  "assignment_hash": "b9044b8fad17b3d628b5c4d06911a6473b7e13e7882e043ceb8537922307f9c8",
+  "generator_mix": {
+    "stabilityai/stable-diffusion-2-1-base": 220
+  },
+  "note": "D_sel size is a proposal, not a power calculation."
+}

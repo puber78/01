@@ -1,0 +1,46 @@
+# Registered numerical initial values for THIS project.
+# They mirror the execution package file `验收参数_待批准.yaml` (which is kept
+# byte-identical in the parent folder) and remain UNAPPROVED: the executor may
+# not promote them. `approved_by` must be a human name before any scientific
+# decision uses them.
+version: proposed_parameters_v1
+created_at: "2026-10-26T00:00:00Z"
+mirrors_package_file: ../验收参数_待批准.yaml
+mirrors_package_file_sha256: 67c25c365d59cf92d8313e03b9d0831825b61894138209194f253ba98f18665f
+approval_status: DRAFT_UNAPPROVED
+approved_by: null
+approved_at: null
+
+proposed_parameters:
+  delta_auc: 0.01
+  epsilon_auc: 0.01
+  confidence_level: 0.95
+  primary_capture_budget_groups: 40
+  secondary_budgets: [20, 80]
+  calibration_replay_requests: 200
+  bootstrap_initial_replicates: 2000
+  target_confirmatory_half_width: 0.01
+  inference_atol: 1.0e-06
+  inference_rtol: 1.0e-05
+  metric_reproduction_atol: 1.0e-10
+  technical_capture_attempts: 20
+  technical_repeat_attempts_min: 4
+  simple_shrinkage_weight: 0.5
+  failure_count_tolerance: 0
+
+resource_caps:
+  capture_cost_cap: null
+  compute_cost_cap: null
+  registration_stage: EXAM06
+  note: not yet set; must not be inferred as unlimited
+
+forbidden_shortcuts:
+  - fixed_auc_floor_as_universal_gate
+  - reuse_pilot_as_confirmation
+  - infer_missing_score_as_0_or_0.5
+  - count_render_or_auc_pairs_as_independent_sources
+  - multiply_capture_cost_by_model_count
+  - count_replays_as_new_environments
+  - keep_sampling_until_significant
+  - select_digitals_using_final_T
+  - use_old_g9_gates_as_selection_gates

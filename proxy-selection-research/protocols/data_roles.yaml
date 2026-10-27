@@ -1,0 +1,76 @@
+# Data roles, access matrix and pilot quotas.
+# DRAFT: quota values are the outline's budget examples, not a power guarantee.
+# D_sel size is intentionally null: it must be registered in EXAM02 with a
+# stated rationale, never invented here.
+version: data_roles_v1
+created_at: "2026-10-26T00:00:00Z"
+approval_status: DRAFT_UNAPPROVED
+
+roles:
+  C_pool:
+    description: calibration pool of real capture source groups
+    physical_capture_required: true
+    quotas:
+      source_groups: 80
+      intended_budgets: [20, 40, 80]
+      composition_example: {photographic: 40, ai_generated: 40}
+  D_sel:
+    description: additional DIGITAL-ONLY source groups for selection scoring
+    physical_capture_required: false
+    quotas:
+      source_groups: null
+      registration_stage: EXAM02
+      rationale_required: true
+  T_pilot:
+    description: pilot physical check set, revealed only after choices are frozen
+    physical_capture_required: true
+    quotas:
+      source_groups: 160
+      composition_example: {photographic: 80, ai_generated: 80}
+  C_confirm:
+    description: confirmatory calibration pool from NEW sources
+    physical_capture_required: true
+    quotas: {source_groups: null, registration_stage: EXAM06}
+  D_sel_confirm:
+    description: confirmatory digital-only selection groups
+    physical_capture_required: false
+    quotas: {source_groups: null, registration_stage: EXAM06}
+  T_confirm:
+    description: confirmatory held-out physical evaluation set
+    physical_capture_required: true
+    quotas: {source_groups: null, registration_stage: EXAM06}
+  TECH:
+    description: technical sample for engineering verification only
+    physical_capture_required: false
+    quotas: {source_groups: null, attempts: 20, planned_repeats_min: 4}
+    cannot_be_used_as: [independent_confirmation, pilot_evaluation]
+  EXTERNAL:
+    description: pre-registered external panels (new model / new environment)
+    physical_capture_required: true
+    quotas: {registration_stage: EXAM06}
+
+access_matrix:
+  development:
+    allowed: [C_pool, D_sel, C_confirm, D_sel_confirm, TECH]
+    denied: [T_pilot, T_confirm, EXTERNAL]
+  evaluation:
+    allowed: [C_pool, D_sel, C_confirm, D_sel_confirm, TECH, T_pilot, T_confirm, EXTERNAL]
+    denied: []
+  audit:
+    allowed: [C_pool, D_sel, C_confirm, D_sel_confirm, TECH, T_pilot, T_confirm, EXTERNAL]
+    denied: []
+    restriction: read_only_no_fitting_no_selection
+
+lineage_rules:
+  split_unit: split_group_id
+  quota_counting: one_source_group_one_main_display_asset
+  repeats: count_as_same_source_group
+  cross_role_overlap_tolerance: 0
+  multi_image_lineages_must_stay_together: true
+
+capture_budget_examples:
+  technical_sample_attempts: 20
+  technical_repeats_min: 4
+  pilot_main_sources: 240
+  pilot_planned_repeats_fraction: 0.1
+  note: budget example only; not a statistical power guarantee

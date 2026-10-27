@@ -1,0 +1,59 @@
+# EXAM01 task freeze — scope, labels, deployment model, utility.
+# Status: DRAFT_FROZEN_BY_EXECUTOR_PENDING_PRINCIPAL_REVIEW
+# This file records WHAT the research code will do; it grants no capture,
+# training, reveal or publication permission.
+version: exam01_scope_v1
+created_at: "2026-10-26T00:00:00Z"
+created_by: deepseek_harness_executor
+approval_status: DRAFT_UNAPPROVED
+principal_review_required: true
+approver: null
+
+task:
+  name: offline_detector_selection_for_real_screen_recapture
+  label_definition:
+    value_0: original_photographic_source
+    value_1: ai_generated_source
+    invariant_under_display_and_capture: true
+    label_evidence: original_source_record_only_never_detector_scores
+  deployment:
+    model_count: 1
+    input: single_rgb_image
+    inference: frozen_checkpoint_official_preprocessing
+    selection_timing: offline_before_deployment
+    target_environment: one_pre_specified_screen_camera_geometry_session_protocol
+  utility:
+    primary: real_recapture_auc_on_source_groups
+    direction: higher_auc_is_better
+    secondary: [absolute_regret, rank_relationships, near_optimal_range, cost]
+    not_claimed: [low_false_positive_operating_point, cost_weighted_optimum, threshold_utility]
+
+in_scope:
+  - offline_selection_among_frozen_candidates
+  - digital_test_families_as_proxy_evidence
+  - same_budget_true_direct_and_simple_shrinkage_baselines
+  - grouped_resampling_and_paired_intervals
+  - attainable_set_diagnostics_for_nonnegative_weighting
+  - independent_and_external_confirmatory_evaluation
+
+out_of_scope:
+  - active_capture_policy_design
+  - per_image_model_routing_or_ensemble_fusion
+  - training_new_detector_backbones
+  - raw_demosaic_attribution
+  - g9_mechanism_mainline
+  - deployment_threshold_optimisation
+  - automatic_publication_or_upload
+
+information_rights:
+  development_can_read: [C_pool, D_sel, C_confirm, D_sel_confirm, TECH]
+  development_cannot_read: [T_pilot, T_confirm, EXTERNAL]
+  evaluation_holds: [T_pilot, T_confirm, EXTERNAL]
+  reveal_order: choices_frozen_then_labels_joined_then_metrics
+  unlabeled_target_images_are_not_free: true
+
+limits_of_claim:
+  - auc_only_about_source_ranking
+  - candidate_set_and_tested_environment_only
+  - no_raw_causal_claim
+  - no_universal_threshold

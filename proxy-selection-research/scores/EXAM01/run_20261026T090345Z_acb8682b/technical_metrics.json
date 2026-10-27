@@ -1,0 +1,484 @@
+{
+  "run_id": "run_20261026T090345Z_acb8682b",
+  "role": "TECH",
+  "n_samples": 80,
+  "n_rows": 480,
+  "coverage": {
+    "rows": 480,
+    "ok": 480,
+    "failed": 0,
+    "failure_codes": {},
+    "coverage": 1.0,
+    "expected_units": 480,
+    "complete": true
+  },
+  "auc_table": [
+    {
+      "model_id": "mdl_1ac28aa8c2d55decacd81916",
+      "image_branch": "digital",
+      "transform_id": "clean_tech",
+      "n": 80,
+      "n_ai": 40,
+      "n_real": 40,
+      "auc": 0.84875,
+      "status": "ok"
+    },
+    {
+      "model_id": "mdl_36f44b70676c5d4993a462ff",
+      "image_branch": "digital",
+      "transform_id": "clean_tech",
+      "n": 80,
+      "n_ai": 40,
+      "n_real": 40,
+      "auc": 0.524375,
+      "status": "ok"
+    },
+    {
+      "model_id": "mdl_5aea9eccc5ab5f0985c6eb84",
+      "image_branch": "digital",
+      "transform_id": "clean_tech",
+      "n": 80,
+      "n_ai": 40,
+      "n_real": 40,
+      "auc": 0.3121875,
+      "status": "ok"
+    },
+    {
+      "model_id": "mdl_a033390521785af9a0cea398",
+      "image_branch": "digital",
+      "transform_id": "clean_tech",
+      "n": 80,
+      "n_ai": 40,
+      "n_real": 40,
+      "auc": 0.508125,
+      "status": "ok"
+    },
+    {
+      "model_id": "mdl_be319390f1da5c9288088003",
+      "image_branch": "digital",
+      "transform_id": "clean_tech",
+      "n": 80,
+      "n_ai": 40,
+      "n_real": 40,
+      "auc": 0.92125,
+      "status": "ok"
+    },
+    {
+      "model_id": "mdl_be8823ef8ded5831be8bae98",
+      "image_branch": "digital",
+      "transform_id": "clean_tech",
+      "n": 80,
+      "n_ai": 40,
+      "n_real": 40,
+      "auc": 0.826875,
+      "status": "ok"
+    }
+  ],
+  "models": [
+    {
+      "model_key": "swin_sdxl",
+      "status": "OK",
+      "registry": {
+        "model_key": "swin_sdxl",
+        "repo": "organika/sdxl-detector",
+        "revision": "b37fede8562cb72b89ec201c0987f96ba21b518a",
+        "architecture": "SwinForImageClassification",
+        "basis": "Swin transformer fine-tuned to separate SDXL-generated images from real photographs",
+        "license": "cc-by-nc-3.0",
+        "ai_label": null,
+        "batch_size": 16,
+        "notes": "Widely used public baseline; non-commercial license recorded."
+      },
+      "metadata": {
+        "repo": "organika/sdxl-detector",
+        "requested_revision": "b37fede8562cb72b89ec201c0987f96ba21b518a",
+        "snapshot_dir": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\models\\hf_cache\\models--organika--sdxl-detector\\snapshots\\b37fede8562cb72b89ec201c0987f96ba21b518a",
+        "snapshot_files": {
+          "config.json": "731cf7e077d0176022a89c542169bbee58a0b77ad7311d77deb1c5720c2ab6c2",
+          "model.safetensors": "f8809f67fbbf4b455b13aaebf2bfc90192e7c6c881fd8efce0eb51fba9a06e5c",
+          "preprocessor_config.json": "5f37dd312775083c2ca1bd85b5935989cb128eb7f803aae5ba88381e4a4786b5",
+          "README.md": "dd47998a64d2155bcd9b6a4034d1ae4ecbf413342dbeb735f273e51cd8a58276",
+          "training_args.bin": "2c3b96869fa178d23b082e5a6d9bf48ec5865f979c6391b5ae6571ff0f37b681",
+          "training_params.json": "b8ec96bb6c2ca61ccd7aab820a92e8fa627033d4032fcf5910a8373e644c2a63"
+        },
+        "id2label": {
+          "0": "artificial",
+          "1": "human"
+        },
+        "ai_index": 0,
+        "ai_label": "artificial",
+        "architectures": [
+          "SwinForImageClassification"
+        ],
+        "num_parameters": 86745274,
+        "device": "cuda:0",
+        "batch_size": 16
+      },
+      "config_fingerprint": {
+        "repo": "organika/sdxl-detector",
+        "revision": "b37fede8562cb72b89ec201c0987f96ba21b518a",
+        "checkpoint_hash": "bd2f1777adb6d3f466f668b9ee8fa1d80642c31ae92c293d327592401f1267b6",
+        "preprocess_hash": "dde54b7b3a23101cbbf0b500b979342ff5c70a8553d3256be4d6d8a447fde528",
+        "orientation": "higher_is_ai",
+        "ai_index": 0,
+        "batch_size": 16,
+        "device": "cuda:0"
+      },
+      "load_seconds": 8.71,
+      "score_seconds": 1.7,
+      "n_scored": 80,
+      "n_failed": 0,
+      "tech_auc": 0.826875,
+      "tech_n": 80,
+      "repeat_inference": {
+        "n": 32,
+        "batch_size": 16,
+        "max_abs_diff": 0.0,
+        "max_allowed": 1.0486501812934877e-05,
+        "atol": 1e-06,
+        "rtol": 1e-05,
+        "passes": true,
+        "seconds": 0.57
+      }
+    },
+    {
+      "model_key": "siglip_ai_human",
+      "status": "OK",
+      "registry": {
+        "model_key": "siglip_ai_human",
+        "repo": "Ateeqq/ai-vs-human-image-detector",
+        "revision": "60e82406916921b823616bee33397baab38af3f0",
+        "architecture": "SiglipForImageClassification",
+        "basis": "SigLIP vision-language backbone fine-tuned for AI-vs-human classification",
+        "license": "apache-2.0",
+        "ai_label": null,
+        "batch_size": 16,
+        "notes": "Different pretraining objective (contrastive image-text) from Swin baselines."
+      },
+      "metadata": {
+        "repo": "Ateeqq/ai-vs-human-image-detector",
+        "requested_revision": "60e82406916921b823616bee33397baab38af3f0",
+        "snapshot_dir": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\models\\hf_cache\\models--Ateeqq--ai-vs-human-image-detector\\snapshots\\60e82406916921b823616bee33397baab38af3f0",
+        "snapshot_files": {
+          "config.json": "4ae0303aff5c84eaeabc3721ccc931a8b2968ed8e1d1a1285159242bf2a36da0",
+          "model.safetensors": "ab0b8cad7462a047ff4e2888cb4f11b1abe568d73ce07a2649a3f1541f73675f",
+          "preprocessor_config.json": "0540e59bcd8f44c3d097169b846c4745186805fce5a876036f3f8c6d9edfcc32",
+          "README.md": "55d0e7e7616165b12aab886358357034db2b9690c756d6f0313c29c590d06614",
+          "trainer_state.json": "1c3e7133fd6d70e54e45f49ea9856c6a85e9a6766c61c1cbe7c88d077bea0620"
+        },
+        "id2label": {
+          "0": "ai",
+          "1": "hum"
+        },
+        "ai_index": 0,
+        "ai_label": "ai",
+        "architectures": [
+          "SiglipForImageClassification"
+        ],
+        "num_parameters": 92885762,
+        "device": "cuda:0",
+        "batch_size": 16
+      },
+      "config_fingerprint": {
+        "repo": "Ateeqq/ai-vs-human-image-detector",
+        "revision": "60e82406916921b823616bee33397baab38af3f0",
+        "checkpoint_hash": "5620845f239d2f4a1c0e4cb6b9d675e4dc419b05c49974724af6f870d3e3ca91",
+        "preprocess_hash": "2bd74271f5a5b00a764b7a696117974beb676f6306ecf2b5c7c7a1d0f26ac108",
+        "orientation": "higher_is_ai",
+        "ai_index": 0,
+        "batch_size": 16,
+        "device": "cuda:0"
+      },
+      "load_seconds": 1.37,
+      "score_seconds": 1.38,
+      "n_scored": 80,
+      "n_failed": 0,
+      "tech_auc": 0.84875,
+      "tech_n": 80,
+      "repeat_inference": {
+        "n": 32,
+        "batch_size": 16,
+        "max_abs_diff": 0.0,
+        "max_allowed": 1.0999611377716066e-05,
+        "atol": 1e-06,
+        "rtol": 1e-05,
+        "passes": true,
+        "seconds": 0.55
+      }
+    },
+    {
+      "model_key": "convnext_ai",
+      "status": "OK",
+      "registry": {
+        "model_key": "convnext_ai",
+        "repo": "mmanikanta/ConvNeXT_AI_image_detector",
+        "revision": "bb63f4c062bd572ed50dcc2a28f1d67e8b8d8511",
+        "architecture": "ConvNextForImageClassification",
+        "basis": "ConvNeXt convolutional backbone fine-tuned for fake-vs-real image classification",
+        "license": "apache-2.0",
+        "ai_label": null,
+        "batch_size": 16,
+        "notes": "Convolutional family, distinct from transformer candidates."
+      },
+      "metadata": {
+        "repo": "mmanikanta/ConvNeXT_AI_image_detector",
+        "requested_revision": "bb63f4c062bd572ed50dcc2a28f1d67e8b8d8511",
+        "snapshot_dir": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\models\\hf_cache\\models--mmanikanta--ConvNeXT_AI_image_detector\\snapshots\\bb63f4c062bd572ed50dcc2a28f1d67e8b8d8511",
+        "snapshot_files": {
+          "all_results.json": "3a66b5aff1e7b715af5528cceded0fb81a10313730d46809378f355e40bdb9df",
+          "config.json": "95c69ec826f60e23ff6dc0045828dc186208f3e2fb6e6065a0c434a95c1d637f",
+          "eval_results.json": "4b4905e81719d7b4d2492ac1b15b5e8382583198c97388d0d4adb1a8d122c9dc",
+          "preprocessor_config.json": "9ef34d18dbf7909143a91f05ad23457180fcfed05034bf94843f300e32a9b968",
+          "pytorch_model.bin": "62ba08af2048a8944115cbe57eb2e608fc593fbbb78445bc5fda4c7ad665ebf7",
+          "README.md": "31281a29e68b7c2a44dcd9f7efdc65e2d5a31ecd58e704a6838fec07ef2c8bbf",
+          "train_results.json": "1a0bfa08c1ea958649b3a1fd2beeb226228d31e626a247bdd0b720b3ae5f1615",
+          "trainer_state.json": "694e5a7925910fc9bebf09ef86759a5e01bfbe5d866abcde1697952e88117f3a",
+          "training_args.bin": "e5063082e8b8e87341a7243cf5f816c74b181b3f2a45ec45714a8ff3e95a266f"
+        },
+        "id2label": {
+          "0": "FAKE",
+          "1": "REAL"
+        },
+        "ai_index": 0,
+        "ai_label": "FAKE",
+        "architectures": [
+          "ConvNextForImageClassification"
+        ],
+        "num_parameters": 27821666,
+        "device": "cuda:0",
+        "batch_size": 16
+      },
+      "config_fingerprint": {
+        "repo": "mmanikanta/ConvNeXT_AI_image_detector",
+        "revision": "bb63f4c062bd572ed50dcc2a28f1d67e8b8d8511",
+        "checkpoint_hash": "c2813e202b1a7979ae1c1c286d49eb19cbe708340bc436b103163036ed451561",
+        "preprocess_hash": "d88882f29d3d14b8ccaaf91c836e1df0a041009f7e602f710fbb4810acdd80ba",
+        "orientation": "higher_is_ai",
+        "ai_index": 0,
+        "batch_size": 16,
+        "device": "cuda:0"
+      },
+      "load_seconds": 0.45,
+      "score_seconds": 1.02,
+      "n_scored": 80,
+      "n_failed": 0,
+      "tech_auc": 0.508125,
+      "tech_n": 80,
+      "repeat_inference": {
+        "n": 32,
+        "batch_size": 16,
+        "max_abs_diff": 0.0,
+        "max_allowed": 9.60154151916504e-06,
+        "atol": 1e-06,
+        "rtol": 1e-05,
+        "passes": true,
+        "seconds": 0.41
+      }
+    },
+    {
+      "model_key": "resnet_ai",
+      "status": "OK",
+      "registry": {
+        "model_key": "resnet_ai",
+        "repo": "mmanikanta/ResNet_AI_image_detector",
+        "revision": "a11a1cea6ee684cd0c2b1bbb6e5b5cd04232f30e",
+        "architecture": "ResNetForImageClassification",
+        "basis": "ResNet-50 style convolutional classifier for fake-vs-real images",
+        "license": "apache-2.0",
+        "ai_label": null,
+        "batch_size": 16,
+        "notes": "Classic CNN baseline family."
+      },
+      "metadata": {
+        "repo": "mmanikanta/ResNet_AI_image_detector",
+        "requested_revision": "a11a1cea6ee684cd0c2b1bbb6e5b5cd04232f30e",
+        "snapshot_dir": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\models\\hf_cache\\models--mmanikanta--ResNet_AI_image_detector\\snapshots\\a11a1cea6ee684cd0c2b1bbb6e5b5cd04232f30e",
+        "snapshot_files": {
+          "all_results.json": "2b1136f62418c15e486d0cd2937189726e000fc3233c32b07934e24eed9b4f5e",
+          "config.json": "58b0a3094c87021e5cc86d21c6015f97c9bd875afdcbf10d6a131b61ceb3baed",
+          "eval_results.json": "95ba80f159294d093b03181e192e4b8669ba3e10703f5adfd1fb78e10ddf66ff",
+          "preprocessor_config.json": "9ef34d18dbf7909143a91f05ad23457180fcfed05034bf94843f300e32a9b968",
+          "pytorch_model.bin": "5872b1cbd76858f7bb60815cc2d4b77cd692986292725feeab1a64a8ca05b285",
+          "README.md": "91669217ef9498731108128d7d444b11f9bfc63f67a1f42e1f7c6293ea10fd77",
+          "train_results.json": "f04682914f51db31065e52e56fff9080bfb8a5081ca5691749a6869f97ea1c00",
+          "trainer_state.json": "6bcc51073564b4e676f47f483350b8794bc754da990d78631db3aaa912cbc316",
+          "training_args.bin": "043368f6382892a12c0e3ac2357485f1b444a15a251071b4582efd55dc8bc4e4"
+        },
+        "id2label": {
+          "0": "FAKE",
+          "1": "REAL"
+        },
+        "ai_index": 0,
+        "ai_label": "FAKE",
+        "architectures": [
+          "ResNetForImageClassification"
+        ],
+        "num_parameters": 23512130,
+        "device": "cuda:0",
+        "batch_size": 16
+      },
+      "config_fingerprint": {
+        "repo": "mmanikanta/ResNet_AI_image_detector",
+        "revision": "a11a1cea6ee684cd0c2b1bbb6e5b5cd04232f30e",
+        "checkpoint_hash": "e6a786890e3d25033ea31de4079411a670b48170240e2145740fd87022bc07ea",
+        "preprocess_hash": "d88882f29d3d14b8ccaaf91c836e1df0a041009f7e602f710fbb4810acdd80ba",
+        "orientation": "higher_is_ai",
+        "ai_index": 0,
+        "batch_size": 16,
+        "device": "cuda:0"
+      },
+      "load_seconds": 0.48,
+      "score_seconds": 1.03,
+      "n_scored": 80,
+      "n_failed": 0,
+      "tech_auc": 0.3121875,
+      "tech_n": 80,
+      "repeat_inference": {
+        "n": 32,
+        "batch_size": 16,
+        "max_abs_diff": 0.0,
+        "max_allowed": 4.526061773300171e-06,
+        "atol": 1e-06,
+        "rtol": 1e-05,
+        "passes": true,
+        "seconds": 0.42
+      }
+    },
+    {
+      "model_key": "swinv2_deploy",
+      "status": "OK",
+      "registry": {
+        "model_key": "swinv2_deploy",
+        "repo": "haywoodsloan/ai-image-detector-deploy",
+        "revision": "4ae1822603cb1ec980c217cfde1ef1b8e0477a16",
+        "architecture": "Swinv2ForImageClassification",
+        "basis": "Swinv2 backbone fine-tuned for artificial-vs-real detection",
+        "license": "apache-2.0",
+        "ai_label": null,
+        "batch_size": 16,
+        "notes": "Second-generation Swin; training corpus differs from swin_sdxl."
+      },
+      "metadata": {
+        "repo": "haywoodsloan/ai-image-detector-deploy",
+        "requested_revision": "4ae1822603cb1ec980c217cfde1ef1b8e0477a16",
+        "snapshot_dir": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\models\\hf_cache\\models--haywoodsloan--ai-image-detector-deploy\\snapshots\\4ae1822603cb1ec980c217cfde1ef1b8e0477a16",
+        "snapshot_files": {
+          "config.json": "c589bc2ce35f5cda9e978939a3d6e77a0c1f5d83bcd69cf6006e74e8b84b971f",
+          "model.safetensors": "3a4439d47a41dc62ef1b4ca5067f2954da0652e8c3ced36705820adc6c1abe31",
+          "preprocessor_config.json": "e6454a33e41423972799327db81ca10509ac30daf664123591a1dbd8ddf9e470",
+          "README.md": "333f0b172fb487f31e42c67f9975bc96130535168fbfbe6250eb1dc62d299370",
+          "training_args.bin": "96bf2e99106e3c60cff8fa494aeff2efb2392fbb9580502f7fa416fcaadd7456",
+          "training_params.json": "56c3e667bb6c35fa3dcc55852e99ff9bd669459ec6190d67327cefc909d86846"
+        },
+        "id2label": {
+          "0": "artificial",
+          "1": "real"
+        },
+        "ai_index": 0,
+        "ai_label": "artificial",
+        "architectures": [
+          "Swinv2ForImageClassification"
+        ],
+        "num_parameters": 195206006,
+        "device": "cuda:0",
+        "batch_size": 16
+      },
+      "config_fingerprint": {
+        "repo": "haywoodsloan/ai-image-detector-deploy",
+        "revision": "4ae1822603cb1ec980c217cfde1ef1b8e0477a16",
+        "checkpoint_hash": "98cc79f4820baf6df19057f8407a5947d4cf07b79b25ca276e1203e6e072a4ca",
+        "preprocess_hash": "6b12f248b5d8e2a8b6e1d6a40a351bbf42bfb59600b5042186029f655f042c45",
+        "orientation": "higher_is_ai",
+        "ai_index": 0,
+        "batch_size": 16,
+        "device": "cuda:0"
+      },
+      "load_seconds": 2.96,
+      "score_seconds": 3.21,
+      "n_scored": 80,
+      "n_failed": 0,
+      "tech_auc": 0.92125,
+      "tech_n": 80,
+      "repeat_inference": {
+        "n": 32,
+        "batch_size": 16,
+        "max_abs_diff": 0.0,
+        "max_allowed": 1.0980741739273072e-05,
+        "atol": 1e-06,
+        "rtol": 1e-05,
+        "passes": true,
+        "seconds": 1.24
+      }
+    },
+    {
+      "model_key": "vit_ai_real",
+      "status": "OK",
+      "registry": {
+        "model_key": "vit_ai_real",
+        "repo": "Cyberdon360/ai-vs-real-image-detector",
+        "revision": "4ac162b05947fc02f45bf0ea4015f18f16aa897a",
+        "architecture": "ViTForImageClassification",
+        "basis": "Vision Transformer fine-tuned for REAL-vs-FAKE classification",
+        "license": "unstated_on_model_card",
+        "ai_label": null,
+        "batch_size": 16,
+        "notes": "Plain ViT family; license not stated on the model card, flagged for review."
+      },
+      "metadata": {
+        "repo": "Cyberdon360/ai-vs-real-image-detector",
+        "requested_revision": "4ac162b05947fc02f45bf0ea4015f18f16aa897a",
+        "snapshot_dir": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\models\\hf_cache\\models--Cyberdon360--ai-vs-real-image-detector\\snapshots\\4ac162b05947fc02f45bf0ea4015f18f16aa897a",
+        "snapshot_files": {
+          "config.json": "0dcc0042b3c7d43cdf77b00a09351f46126c34318864d109327148f6313157b6",
+          "model.safetensors": "e246d00f2f6327630a03093ec162eecb812a33289cce1ee0d71fee298c0b0031",
+          "preprocessor_config.json": "a34861a24e781942424ad790b82bc99348404a2e64ea882de88c40905851698d",
+          "README.md": "0336368f8274a5ed09f54cee8d56a851ecee96026d9f391a6735762c16608a60"
+        },
+        "id2label": {
+          "0": "REAL",
+          "1": "FAKE"
+        },
+        "ai_index": 1,
+        "ai_label": "FAKE",
+        "architectures": [
+          "ViTForImageClassification"
+        ],
+        "num_parameters": 85800194,
+        "device": "cuda:0",
+        "batch_size": 16
+      },
+      "config_fingerprint": {
+        "repo": "Cyberdon360/ai-vs-real-image-detector",
+        "revision": "4ac162b05947fc02f45bf0ea4015f18f16aa897a",
+        "checkpoint_hash": "edef4508dd3fa797237da5ad5ff7650b1ab633ae8e8a110107fdae318840d668",
+        "preprocess_hash": "0a7fef4d02c1bd80b0acab428ee7f8d49fcf2381b0b0e1caa45436df036b905b",
+        "orientation": "higher_is_ai",
+        "ai_index": 1,
+        "batch_size": 16,
+        "device": "cuda:0"
+      },
+      "load_seconds": 1.2,
+      "score_seconds": 1.39,
+      "n_scored": 80,
+      "n_failed": 0,
+      "tech_auc": 0.524375,
+      "tech_n": 80,
+      "repeat_inference": {
+        "n": 32,
+        "batch_size": 16,
+        "max_abs_diff": 0.0,
+        "max_allowed": 8.37628996372223e-06,
+        "atol": 1e-06,
+        "rtol": 1e-05,
+        "passes": true,
+        "seconds": 0.54
+      }
+    }
+  ],
+  "repeat_tolerance": {
+    "atol": 1e-06,
+    "rtol": 1e-05
+  },
+  "parameters_approval_status": "DRAFT_UNAPPROVED",
+  "note": "Technical-only metrics: no scientific claim; never used for candidate selection."
+}

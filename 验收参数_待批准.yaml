@@ -1,0 +1,112 @@
+document_version: execution_outline_1.0
+based_on: direction_v2.0
+approval_status: DRAFT_UNAPPROVED
+source_sha256: 53be5a9d39b86fb18a1d7644d80313a21a49140683bc1f87a990baaddbd1bfa3
+project_start_date: null
+schedule_unit: relative_research_workday
+nominal_workdays: 40
+main_scope:
+  selection: offline_one_frozen_detector
+  label: original_photographic_vs_ai_generated
+  inference: single_rgb
+  raw_required: false
+  g9_required: false
+inherited_budget_examples:
+  pilot_capture_source_groups: 240
+  calibration_pool_groups: 80
+  pilot_check_groups: 160
+  planned_repeat_fraction: 0.1
+  initial_detectors: 4
+  digital_family_count_range:
+  - 3
+  - 4
+  digital_selection_groups: null
+proposed_parameters:
+  must_approve_before_use: true
+  delta_auc: 0.01
+  epsilon_auc: 0.01
+  confidence_level: 0.95
+  primary_capture_budget_groups: 40
+  secondary_budgets:
+  - 20
+  - 80
+  calibration_replay_requests: 200
+  bootstrap_initial_replicates: 2000
+  target_confirmatory_half_width: 0.01
+  inference_atol: 1.0e-06
+  inference_rtol: 1.0e-05
+  metric_reproduction_atol: 1.0e-10
+  technical_capture_attempts: 20
+  technical_repeat_attempts_min: 4
+  simple_shrinkage_weight: 0.5
+unresolved_before_confirmatory:
+  n_C_confirm: null
+  n_D_sel_confirm: null
+  n_T_confirm: null
+  primary_endpoint: null
+  primary_estimand: null
+  primary_comparators: []
+  multiple_comparison_plan: null
+  external_panels: []
+  capture_cost_cap: null
+  compute_cost_cap: null
+  approver: null
+forbidden_shortcuts:
+- fixed_auc_floor_as_universal_gate
+- reuse_pilot_as_confirmation
+- infer_missing_score_as_0_or_0.5
+- count_render_or_auc_pairs_as_independent_sources
+- multiply_capture_cost_by_model_count
+- count_replays_as_new_environments
+- keep_sampling_until_significant
+- select_digitals_using_final_T
+- use_old_G9_gates_as_selection_gates
+conditional_stage9_entry:
+  normal_route: EXAM07完成且EXAM08完成或明确不适用
+  early_stop_route: EXAM05或EXAM06已记录停止决定与全部已完成证据
+stages:
+- id: 1
+  name: 任务冻结、环境与最小计算链
+  window: 第1周 D1—D3
+  depends: []
+- id: 2
+  name: 来源入库、设备小样与采集协议
+  window: 第1—2周 D4—D7
+  depends:
+  - 1
+- id: 3
+  name: 数字代理与冻结检测器基线
+  window: 第2周 D8—D10
+  depends:
+  - 1
+  - 2
+- id: 4
+  name: 配对实拍与盲侧预测完整性
+  window: 第3周 D11—D15
+  depends:
+  - 3
+- id: 5
+  name: 先导主问题：数字选型是否造成实质损失
+  window: 第4周 D16—D18
+  depends:
+  - 4
+- id: 6
+  name: 解释边界、强对照与确认方案冻结
+  window: 第4—5周 D19—D23
+  depends:
+  - 5
+- id: 7
+  name: 独立来源上的确认性评价
+  window: 第5—6周 D24—D30
+  depends:
+  - 6
+- id: 8
+  name: 新环境/新候选与采集预算边界
+  window: 第7周 D31—D35
+  depends:
+  - 6
+  - 7
+- id: 9
+  name: 核心结果复算、证据归档与论文大纲定稿
+  window: 第8周 D36—D40
+  depends: []

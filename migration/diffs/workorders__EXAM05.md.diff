@@ -1,0 +1,25 @@
+--- original/workorders/EXAM05.md
++++ harness/workorders/EXAM05.md
+@@ -1,9 +1,11 @@
+-# 工作卡（未执行）
++# DeepSeek Harness工作卡（未执行）
++
++> 执行前读取同目录上一级的 `DeepSeek_Harness_执行说明.md`；本卡的预测、工作、验收和失败分支沿用原版，不授权越级执行。实体拍摄和批准仍由人工完成；独立评价不得与开发共享未揭示测试上下文。
+ 
+ ### EXAM05｜先导主问题：数字选型是否造成实质损失
+ 
+ **日程**：第4周 D16—D18。**依赖**：EXAM04。  
+-**负责人**：独立统计/评价角色；负责人作继续投入判断。  
++**负责人**：独立评价环境中的DeepSeek Harness统计执行角色；研究负责人作继续投入判断。  
+ **目标问题**：数字规则相对于同预算真实直接规则，是否确实使选中的模型更差？
+ 
+ #### PREDICTION05｜事前预期与推理/选型范围
+@@ -22,7 +24,7 @@
+ 5. 报告近似并列、来源/生成器/会话敏感性、缺失与覆盖；只在同时差异区间支持时，评价某规则处于候选集合近最优范围。
+ 6. 把先导结论登记为PILOT。揭示之后的T_pilot不再承担后续确认，新增方案须到EXAM07用新来源验证。
+ 
+-**Codex实现范围**：paired_auc、selection_replay、paired_intervals、oracle_bias_audit、near_optimality、pilot_report。
++**DeepSeek Harness实现范围**：paired_auc、selection_replay、paired_intervals、oracle_bias_audit、near_optimality、pilot_report。
+ 
+ #### RESULT05｜应交付的真实产物
+ 

@@ -1,0 +1,12 @@
+# Local environments and caches
+**/.venv/
+**/.pytest_cache/
+**/__pycache__/
+*.py[cod]
+
+# Temporary installers and artifacts
+**/tmp/
+
+# Large model caches and datasets
+**/models/
+**/data/

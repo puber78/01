@@ -1,0 +1,63 @@
+{
+  "model_key": "vit_ai_real",
+  "status": "OK",
+  "registry": {
+    "model_key": "vit_ai_real",
+    "repo": "Cyberdon360/ai-vs-real-image-detector",
+    "revision": "4ac162b05947fc02f45bf0ea4015f18f16aa897a",
+    "architecture": "ViTForImageClassification",
+    "basis": "Vision Transformer fine-tuned for REAL-vs-FAKE classification",
+    "license": "unstated_on_model_card",
+    "ai_label": null,
+    "batch_size": 16,
+    "notes": "Plain ViT family; license not stated on the model card, flagged for review."
+  },
+  "metadata": {
+    "repo": "Cyberdon360/ai-vs-real-image-detector",
+    "requested_revision": "4ac162b05947fc02f45bf0ea4015f18f16aa897a",
+    "snapshot_dir": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\models\\hf_cache\\models--Cyberdon360--ai-vs-real-image-detector\\snapshots\\4ac162b05947fc02f45bf0ea4015f18f16aa897a",
+    "snapshot_files": {
+      "config.json": "0dcc0042b3c7d43cdf77b00a09351f46126c34318864d109327148f6313157b6",
+      "model.safetensors": "e246d00f2f6327630a03093ec162eecb812a33289cce1ee0d71fee298c0b0031",
+      "preprocessor_config.json": "a34861a24e781942424ad790b82bc99348404a2e64ea882de88c40905851698d",
+      "README.md": "0336368f8274a5ed09f54cee8d56a851ecee96026d9f391a6735762c16608a60"
+    },
+    "id2label": {
+      "0": "REAL",
+      "1": "FAKE"
+    },
+    "ai_index": 1,
+    "ai_label": "FAKE",
+    "architectures": [
+      "ViTForImageClassification"
+    ],
+    "num_parameters": 85800194,
+    "device": "cuda:0",
+    "batch_size": 16
+  },
+  "config_fingerprint": {
+    "repo": "Cyberdon360/ai-vs-real-image-detector",
+    "revision": "4ac162b05947fc02f45bf0ea4015f18f16aa897a",
+    "checkpoint_hash": "edef4508dd3fa797237da5ad5ff7650b1ab633ae8e8a110107fdae318840d668",
+    "preprocess_hash": "0a7fef4d02c1bd80b0acab428ee7f8d49fcf2381b0b0e1caa45436df036b905b",
+    "orientation": "higher_is_ai",
+    "ai_index": 1,
+    "batch_size": 16,
+    "device": "cuda:0"
+  },
+  "load_seconds": 21.3,
+  "score_seconds": 1.5,
+  "n_scored": 80,
+  "n_failed": 0,
+  "tech_auc": 0.524375,
+  "tech_n": 80,
+  "repeat_inference": {
+    "n": 8,
+    "max_abs_diff": 2.086162567138672e-07,
+    "max_allowed": 7.062147617340088e-06,
+    "atol": 1e-06,
+    "rtol": 1e-05,
+    "passes": true,
+    "seconds": 0.14
+  }
+}

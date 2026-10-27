@@ -1,0 +1,22 @@
+        model_a       model_b  auc_a  auc_b   delta  score_corr  paired_se_at_80  halfwidth_95_at_80  n_per_class_for_hw_0.01  n_per_class_for_hw_0.02  n_per_class_for_hw_0.03
+    vit_ai_real   convnext_ai  0.524  0.508  0.0162       -0.19           0.0977              0.1914                    29311                     7328                     3257
+siglip_ai_human     swin_sdxl  0.849  0.827  0.0219        0.28           0.0649              0.1272                    12944                     3236                     1438
+siglip_ai_human swinv2_deploy  0.849  0.921 -0.0725        0.39           0.0498              0.0975                     7609                     1902                      845
+  swinv2_deploy     swin_sdxl  0.921  0.827  0.0944        0.44           0.0521              0.1022                     8349                     2087                      928
+      resnet_ai   convnext_ai  0.312  0.508 -0.1959        0.08           0.0622              0.1220                    11909                     2977                     1323
+    vit_ai_real     resnet_ai  0.524  0.312  0.2122       -0.10           0.0891              0.1746                    24378                     6095                     2709
+    vit_ai_real     swin_sdxl  0.524  0.827 -0.3025       -0.07           0.0873              0.1710                    23404                     5851                     2600
+    convnext_ai     swin_sdxl  0.508  0.827 -0.3187        0.14           0.0735              0.1441                    16615                     4154                     1846
+siglip_ai_human   vit_ai_real  0.849  0.524  0.3244        0.06           0.0749              0.1468                    17235                     4309                     1915
+siglip_ai_human   convnext_ai  0.849  0.508  0.3406        0.05           0.0776              0.1522                    18520                     4630                     2058
+    vit_ai_real swinv2_deploy  0.524  0.921 -0.3969       -0.02           0.0709              0.1390                    15455                     3864                     1717
+    convnext_ai swinv2_deploy  0.508  0.921 -0.4131        0.15           0.0670              0.1313                    13787                     3447                     1532
+      resnet_ai     swin_sdxl  0.312  0.827 -0.5147       -0.09           0.0680              0.1334                    14231                     3558                     1581
+siglip_ai_human     resnet_ai  0.849  0.312  0.5366       -0.15           0.0708              0.1387                    15384                     3846                     1709
+      resnet_ai swinv2_deploy  0.312  0.921 -0.6091       -0.04           0.0611              0.1197                    11471                     2868                     1275
+
+Two strong models (correlated):
+        model_a       model_b  auc_a  auc_b   delta  score_corr  paired_se_at_80  halfwidth_95_at_80  n_per_class_for_hw_0.01  n_per_class_for_hw_0.02  n_per_class_for_hw_0.03
+siglip_ai_human     swin_sdxl  0.849  0.827  0.0219        0.28           0.0649              0.1272                    12944                     3236                     1438
+siglip_ai_human swinv2_deploy  0.849  0.921 -0.0725        0.39           0.0498              0.0975                     7609                     1902                      845
+  swinv2_deploy     swin_sdxl  0.921  0.827  0.0944        0.44           0.0521              0.1022                     8349                     2087                      928

@@ -1,0 +1,7 @@
+tech     n= 20 classes={0: 10, 1: 10} repeats=4 missing_files=0 bad_repeat=0 seq_unique=True
+main_s1  n= 66 classes={0: 33, 1: 33} repeats=1 missing_files=0 bad_repeat=0 seq_unique=True
+main_s2  n= 66 classes={0: 33, 1: 33} repeats=5 missing_files=0 bad_repeat=0 seq_unique=True
+main_s3  n= 66 classes={1: 32, 0: 34} repeats=6 missing_files=0 bad_repeat=0 seq_unique=True
+main_s4  n= 66 classes={1: 32, 0: 34} repeats=12 missing_files=0 bad_repeat=0 seq_unique=True
+viewer import OK: True
+KIT_OK True

@@ -1,0 +1,25 @@
+--- original/workorders/EXAM08.md
++++ harness/workorders/EXAM08.md
+@@ -1,9 +1,11 @@
+-# 工作卡（未执行）
++# DeepSeek Harness工作卡（未执行）
++
++> 执行前读取同目录上一级的 `DeepSeek_Harness_执行说明.md`；本卡的预测、工作、验收和失败分支沿用原版，不授权越级执行。实体拍摄和批准仍由人工完成；独立评价不得与开发共享未揭示测试上下文。
+ 
+ ### EXAM08｜新环境/新候选与采集预算边界
+ 
+ **日程**：第7周 D31—D35。**依赖**：EXAM06, EXAM07。  
+-**负责人**：独立外部采集/评价角色；统计Codex。  
++**负责人**：独立外部采集/评价角色；DeepSeek Harness统计角色仅在获准评价环境执行。  
+ **目标问题**：哪些已声明的结论能够超出开发来源、模型或设备？需要多少真实证据才达到预设选择精度？
+ 
+ #### PREDICTION08｜事前预期与推理/选型范围
+@@ -22,7 +24,7 @@
+ 5. 报告每个预注册面板与预算，包括未支持项。采集效率只比较实际测试过的预算点，计入开发、校准、失败重拍和额外推理，不线性插值宣称“最少只需n张”。
+ 6. 只有相同捕获下的收益、或在预定非劣/近最优目标下更少捕获获支持，才保留省采集措辞；没有外部条件就将相应结果标NOT_APPLICABLE并收缩标题。
+ 
+-**Codex实现范围**：holdout_audit、external_evaluate、budget_curve、cost_accounting；不开新网络、不根据EXAM07结果换测试族。
++**DeepSeek Harness实现范围**：holdout_audit、external_evaluate、budget_curve、cost_accounting；不开新网络、不根据EXAM07结果换测试族。
+ 
+ #### RESULT08｜应交付的真实产物
+ 

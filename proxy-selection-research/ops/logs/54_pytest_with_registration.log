@@ -1,0 +1,25 @@
+..............................................F......................... [ 98%]
+.                                                                        [100%]
+================================== FAILURES ===================================
+___________________ test_registration_recovers_perspective ____________________
+
+    def test_registration_recovers_perspective():
+        display = _textured(600, 800, seed=1)
+        src = np.float32([[0, 0], [800, 0], [800, 600], [0, 600]])
+        dst = np.float32([[40, 30], [760, 60], [780, 570], [30, 540]])
+        H_true = cv2.getPerspectiveTransform(src, dst)
+        photo = cv2.warpPerspective(display, H_true, (900, 700), borderValue=(20, 20, 20))
+        photo = cv2.GaussianBlur(photo, (3, 3), 0)
+        res = register(display, photo)
+        assert res["ok"], res
+        assert res["inliers"] >= 30
+        # warping the photo back must roughly reproduce the display
+        aligned = cv2.warpPerspective(photo, res["H"], (800, 600))
+        diff = cv2.absdiff(aligned, display).mean()
+>       assert diff < 12.0
+E       assert np.float64(53.79618472222222) < 12.0
+
+tests\test_registration.py:43: AssertionError
+=========================== short test summary info ===========================
+FAILED tests/test_registration.py::test_registration_recovers_perspective - a...
+1 failed, 72 passed in 2.94s

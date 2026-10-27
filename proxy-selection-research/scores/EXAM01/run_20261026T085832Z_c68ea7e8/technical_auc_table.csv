@@ -1,0 +1,2 @@
+model_id,image_branch,transform_id,n,n_ai,n_real,auc,status
+mdl_be8823ef8ded5831be8bae98,digital,clean_tech,80,40,40,0.826875,ok

@@ -1,0 +1,25 @@
+--- original/workorders/EXAM01.md
++++ harness/workorders/EXAM01.md
+@@ -1,9 +1,11 @@
+-# 工作卡（未执行）
++# DeepSeek Harness工作卡（未执行）
++
++> 执行前读取同目录上一级的 `DeepSeek_Harness_执行说明.md`；本卡的预测、工作、验收和失败分支沿用原版，不授权越级执行。实体拍摄和批准仍由人工完成；独立评价不得与开发共享未揭示测试上下文。
+ 
+ ### EXAM01｜任务冻结、环境与最小计算链
+ 
+ **日程**：第1周 D1—D3。**依赖**：实际开工、读取当前材料与授权。  
+-**负责人**：Codex整合负责人；研究负责人审核研究范围与资源。  
++**负责人**：DeepSeek Harness整合角色；研究负责人审核研究范围与资源。  
+ **目标问题**：这项研究能否按同一个任务、同一套数据角色和可复算指标启动？
+ 
+ #### PREDICTION01｜事前预期与推理/选型范围
+@@ -22,7 +24,7 @@
+ 5. 实现AUC方向、同模型零差、regret差恒等式、非负加权占优与不可选集合的单元测试；合成数组只进tests/fixtures。
+ 6. 把本大纲新增阈值、主预算和成本上限登记为建议值，负责人确认或在尚未查看物理评价结果时更改并留痕。
+ 
+-**Codex实现范围**：src/proxy_selection/contracts/、adapters/base、metrics/、logging/与对应tests；已有目录可映射，但由整合负责人统一。
++**DeepSeek Harness实现范围**：src/proxy_selection/contracts/、adapters/base、metrics/、logging/与对应tests；已有目录可映射，但由整合负责人统一。
+ 
+ #### RESULT01｜应交付的真实产物
+ 

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\scripts\build_capture_kit.py", line 293, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\scripts\build_capture_kit.py", line 99, in main
+    digest, geom = make_display(src, out, ledger, log.run_id)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\scripts\build_capture_kit.py", line 63, in make_display
+    raise FileExistsError(out)
+FileExistsError: C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\data\display\TECH\dsp_12396571f9b656d2a70d7c20.png

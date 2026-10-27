@@ -1,0 +1,6 @@
+Collecting opencv-python-headless
+  Downloading opencv_python_headless-5.0.0.93-cp37-abi3-win_amd64.whl.metadata (20 kB)
+Downloading opencv_python_headless-5.0.0.93-cp37-abi3-win_amd64.whl (43.8 MB)
+   ---------------------------------------- 43.8/43.8 MB 9.7 MB/s  0:00:04
+Installing collected packages: opencv-python-headless
+Successfully installed opencv-python-headless-5.0.0.93

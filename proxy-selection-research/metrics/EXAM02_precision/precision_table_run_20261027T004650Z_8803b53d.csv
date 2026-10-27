@@ -1,0 +1,7 @@
+n_per_class,n_total_images,single_auc_se,single_auc_halfwidth_95,paired_delta_se_closest_pair,paired_delta_halfwidth_95,delta_0.01_resolvable
+40,80,0.0737,0.1444,0.1401,0.2746,False
+80,160,0.0521,0.1021,0.0991,0.1942,False
+160,320,0.0368,0.0722,0.0701,0.1373,False
+320,640,0.026,0.0511,0.0495,0.0971,False
+500,1000,0.0208,0.0408,0.0396,0.0777,False
+1000,2000,0.0147,0.0289,0.028,0.0549,False

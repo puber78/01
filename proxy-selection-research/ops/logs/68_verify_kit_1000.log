@@ -1,0 +1,13 @@
+tech     n= 20 classes={0: 10, 1: 10} repeats=4 missing_files=0 bad_repeat=0 seq_unique=True
+main_s1  n=100 classes={1: 50, 0: 50} repeats=4 missing_files=0 bad_repeat=0 seq_unique=True
+main_s2  n=100 classes={0: 51, 1: 49} repeats=8 missing_files=0 bad_repeat=0 seq_unique=True
+main_s3  n=100 classes={0: 50, 1: 50} repeats=8 missing_files=0 bad_repeat=0 seq_unique=True
+main_s4  n=100 classes={0: 49, 1: 51} repeats=9 missing_files=0 bad_repeat=0 seq_unique=True
+main_s5  n=100 classes={0: 52, 1: 48} repeats=11 missing_files=0 bad_repeat=0 seq_unique=True
+main_s6  n=100 classes={1: 49, 0: 51} repeats=10 missing_files=0 bad_repeat=0 seq_unique=True
+main_s7  n=100 classes={0: 51, 1: 49} repeats=8 missing_files=0 bad_repeat=0 seq_unique=True
+main_s8  n=100 classes={0: 51, 1: 49} repeats=14 missing_files=0 bad_repeat=0 seq_unique=True
+main_s9  n=100 classes={0: 51, 1: 49} repeats=15 missing_files=0 bad_repeat=0 seq_unique=True
+main_s10 n=100 classes={1: 52, 0: 48} repeats=13 missing_files=0 bad_repeat=0 seq_unique=True
+viewer import OK: True
+KIT_OK True

@@ -1,0 +1,34 @@
+# Numerical reproducibility contract for scoring and metric recomputation.
+# These are ENGINEERING tolerances, not scientific thresholds.
+version: inference_tolerances_v1
+created_at: "2026-10-26T00:00:00Z"
+approval_status: DRAFT_UNAPPROVED
+
+fp32_repeat_inference:
+  rule: "|s1 - s2| <= atol + rtol * |s2|"
+  atol: 1.0e-06
+  rtol: 1.0e-05
+  applies_to: same_input_same_checkpoint_same_preprocess_same_code
+  does_not_apply_to: real_repeat_photographs
+
+same_prediction_metric_recompute:
+  rule: "|auc_recomputed - auc_original| <= atol"
+  atol: 1.0e-10
+  applies_to: metric_implementation_recheck_only
+
+determinism_requirements:
+  model_eval_mode: true
+  inference_mode: true
+  fixed_batch_size: true
+  fixed_seed: 20261026
+  report_actual_device: true
+  report_library_versions: true
+  cudnn_benchmark: false
+  allow_tf32: false
+
+backend_specific:
+  note: >
+    A backend whose repeat difference exceeds the FP32 tolerance must be
+    measured, documented and locked BEFORE research data are scored. The
+    tolerance may not be relaxed after seeing results.
+  measured_backends: []

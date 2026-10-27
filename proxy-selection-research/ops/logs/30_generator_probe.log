@@ -1,0 +1,17 @@
+total shards: 892
+shard   0 | FAIL 'generator' object is not subscriptable
+shard  60 | FAIL 'generator' object is not subscriptable
+shard 120 | FAIL 'generator' object is not subscriptable
+shard 180 | FAIL 'generator' object is not subscriptable
+shard 240 | FAIL 'generator' object is not subscriptable
+shard 300 | FAIL 'generator' object is not subscriptable
+shard 360 | FAIL 'generator' object is not subscriptable
+shard 420 | FAIL 'generator' object is not subscriptable
+shard 480 | FAIL 'generator' object is not subscriptable
+shard 540 | FAIL 'generator' object is not subscriptable
+shard 600 | FAIL 'generator' object is not subscriptable
+shard 660 | FAIL 'generator' object is not subscriptable
+shard 720 | FAIL 'generator' object is not subscriptable
+shard 780 | FAIL 'generator' object is not subscriptable
+shard 840 | FAIL 'generator' object is not subscriptable
+shard 890 | FAIL 'generator' object is not subscriptable

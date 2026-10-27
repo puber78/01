@@ -1,0 +1,127 @@
+=== swin_sdxl (organika/sdxl-detector) ===
+Fetching 12 files:   0%|          | 0/12 [00:00<?, ?it/s]Fetching 12 files: 100%|██████████| 12/12 [00:00<00:00, 1984.37it/s]
+Loading weights:   0%|          | 0/425 [00:00<?, ?it/s]Loading weights:   3%|▎         | 13/425 [00:00<00:04, 101.35it/s]Loading weights:   6%|▌         | 24/425 [00:00<00:06, 64.94it/s] Loading weights: 100%|██████████| 425/425 [00:00<00:00, 1178.46it/s]
+  loaded in 8.7s arch=['SwinForImageClassification'] ai_label=artificial params=86745274
+  scored 16/80
+  scored 32/80
+  scored 48/80
+  scored 64/80
+  scored 80/80
+  scored=80 failed=0 auc=0.826875 repeat_max=0.0 pass=True
+=== siglip_ai_human (Ateeqq/ai-vs-human-image-detector) ===
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 998.26it/s]
+[transformers] Model config: bos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49406. This may result in unexpected behavior.
+[transformers] Model config: eos_token_id must be `None` or an integer within the vocabulary (between 0 and 31999), got 49407. This may result in unexpected behavior.
+Loading weights:   0%|          | 0/210 [00:00<?, ?it/s]Loading weights:   6%|▌         | 12/210 [00:00<00:01, 113.52it/s]Loading weights:  11%|█▏        | 24/210 [00:00<00:02, 69.87it/s] Loading weights: 100%|██████████| 210/210 [00:00<00:00, 537.93it/s]
+  loaded in 1.4s arch=['SiglipForImageClassification'] ai_label=ai params=92885762
+  scored 16/80
+  scored 32/80
+  scored 48/80
+  scored 64/80
+  scored 80/80
+  scored=80 failed=0 auc=0.84875 repeat_max=0.0 pass=True
+=== convnext_ai (mmanikanta/ConvNeXT_AI_image_detector) ===
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 1343.95it/s]
+Loading weights:   0%|          | 0/182 [00:00<?, ?it/s]Loading weights: 100%|██████████| 182/182 [00:00<00:00, 26958.73it/s]
+  loaded in 0.4s arch=['ConvNextForImageClassification'] ai_label=FAKE params=27821666
+  scored 16/80
+  scored 32/80
+  scored 48/80
+  scored 64/80
+  scored 80/80
+  scored=80 failed=0 auc=0.508125 repeat_max=0.0 pass=True
+=== resnet_ai (mmanikanta/ResNet_AI_image_detector) ===
+Fetching 9 files:   0%|          | 0/9 [00:00<?, ?it/s]Fetching 9 files: 100%|██████████| 9/9 [00:00<00:00, 1533.25it/s]
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|██████████| 320/320 [00:00<00:00, 20196.78it/s]
+  loaded in 0.5s arch=['ResNetForImageClassification'] ai_label=FAKE params=23512130
+  scored 16/80
+  scored 32/80
+  scored 48/80
+  scored 64/80
+  scored 80/80
+  scored=80 failed=0 auc=0.3121875 repeat_max=0.0 pass=True
+=== swinv2_deploy (haywoodsloan/ai-image-detector-deploy) ===
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 1735.62it/s]
+Loading weights:   0%|          | 0/473 [00:00<?, ?it/s]Loading weights:   3%|▎         | 12/473 [00:00<00:04, 110.64it/s]Loading weights:   5%|▌         | 24/473 [00:00<00:07, 63.08it/s] Loading weights:   7%|▋         | 32/473 [00:00<00:07, 60.14it/s]Loading weights:   8%|▊         | 39/473 [00:00<00:07, 60.00it/s]Loading weights:  10%|▉         | 46/473 [00:00<00:09, 44.03it/s]Loading weights: 100%|██████████| 473/473 [00:00<00:00, 533.40it/s]
+  loaded in 3.0s arch=['Swinv2ForImageClassification'] ai_label=artificial params=195206006
+  scored 16/80
+  scored 32/80
+  scored 48/80
+  scored 64/80
+  scored 80/80
+  scored=80 failed=0 auc=0.92125 repeat_max=0.0 pass=True
+=== vit_ai_real (Cyberdon360/ai-vs-real-image-detector) ===
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 977.69it/s]
+Loading weights:   0%|          | 0/200 [00:00<?, ?it/s]Loading weights:   6%|▌         | 11/200 [00:00<00:02, 81.50it/s]Loading weights:  10%|█         | 20/200 [00:00<00:03, 58.59it/s]Loading weights: 100%|██████████| 200/200 [00:00<00:00, 603.84it/s]
+  loaded in 1.2s arch=['ViTForImageClassification'] ai_label=FAKE params=85800194
+  scored 16/80
+  scored 32/80
+  scored 48/80
+  scored 64/80
+  scored 80/80
+  scored=80 failed=0 auc=0.524375 repeat_max=0.0 pass=True
+{
+  "run_id": "run_20261026T090345Z_acb8682b",
+  "auc": [
+    {
+      "model_id": "mdl_1ac28aa8c2d55decacd81916",
+      "image_branch": "digital",
+      "transform_id": "clean_tech",
+      "n": 80,
+      "n_ai": 40,
+      "n_real": 40,
+      "auc": 0.84875,
+      "status": "ok"
+    },
+    {
+      "model_id": "mdl_36f44b70676c5d4993a462ff",
+      "image_branch": "digital",
+      "transform_id": "clean_tech",
+      "n": 80,
+      "n_ai": 40,
+      "n_real": 40,
+      "auc": 0.524375,
+      "status": "ok"
+    },
+    {
+      "model_id": "mdl_5aea9eccc5ab5f0985c6eb84",
+      "image_branch": "digital",
+      "transform_id": "clean_tech",
+      "n": 80,
+      "n_ai": 40,
+      "n_real": 40,
+      "auc": 0.3121875,
+      "status": "ok"
+    },
+    {
+      "model_id": "mdl_a033390521785af9a0cea398",
+      "image_branch": "digital",
+      "transform_id": "clean_tech",
+      "n": 80,
+      "n_ai": 40,
+      "n_real": 40,
+      "auc": 0.508125,
+      "status": "ok"
+    },
+    {
+      "model_id": "mdl_be319390f1da5c9288088003",
+      "image_branch": "digital",
+      "transform_id": "clean_tech",
+      "n": 80,
+      "n_ai": 40,
+      "n_real": 40,
+      "auc": 0.92125,
+      "status": "ok"
+    },
+    {
+      "model_id": "mdl_be8823ef8ded5831be8bae98",
+      "image_branch": "digital",
+      "transform_id": "clean_tech",
+      "n": 80,
+      "n_ai": 40,
+      "n_real": 40,
+      "auc": 0.826875,
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "run_id": "run_20261027T004650Z_8803b53d",
+  "source_run": "run_20261026T090345Z_acb8682b",
+  "aucs": {
+    "mdl_be319390f1da5c9288088003": 0.9213,
+    "mdl_1ac28aa8c2d55decacd81916": 0.8488,
+    "mdl_be8823ef8ded5831be8bae98": 0.8269,
+    "mdl_36f44b70676c5d4993a462ff": 0.5244,
+    "mdl_a033390521785af9a0cea398": 0.5081,
+    "mdl_5aea9eccc5ab5f0985c6eb84": 0.3122
+  },
+  "closest_pair": [
+    "mdl_36f44b70676c5d4993a462ff",
+    "mdl_a033390521785af9a0cea398"
+  ],
+  "paired_delta_se_at_80_per_class": 0.0991,
+  "mean_single_auc_se_at_80_per_class": 0.0521,
+  "per_class_needed_for_halfwidth_0.01": 30172,
+  "table": [
+    {
+      "n_per_class": 40,
+      "n_total_images": 80,
+      "single_auc_se": 0.0737,
+      "single_auc_halfwidth_95": 0.1444,
+      "paired_delta_se_closest_pair": 0.1401,
+      "paired_delta_halfwidth_95": 0.2746,
+      "delta_0.01_resolvable": false
+    },
+    {
+      "n_per_class": 80,
+      "n_total_images": 160,
+      "single_auc_se": 0.0521,
+      "single_auc_halfwidth_95": 0.1021,
+      "paired_delta_se_closest_pair": 0.0991,
+      "paired_delta_halfwidth_95": 0.1942,
+      "delta_0.01_resolvable": false
+    },
+    {
+      "n_per_class": 160,
+      "n_total_images": 320,
+      "single_auc_se": 0.0368,
+      "single_auc_halfwidth_95": 0.0722,
+      "paired_delta_se_closest_pair": 0.0701,
+      "paired_delta_halfwidth_95": 0.1373,
+      "delta_0.01_resolvable": false
+    },
+    {
+      "n_per_class": 320,
+      "n_total_images": 640,
+      "single_auc_se": 0.026,
+      "single_auc_halfwidth_95": 0.0511,
+      "paired_delta_se_closest_pair": 0.0495,
+      "paired_delta_halfwidth_95": 0.0971,
+      "delta_0.01_resolvable": false
+    },
+    {
+      "n_per_class": 500,
+      "n_total_images": 1000,
+      "single_auc_se": 0.0208,
+      "single_auc_halfwidth_95": 0.0408,
+      "paired_delta_se_closest_pair": 0.0396,
+      "paired_delta_halfwidth_95": 0.0777,
+      "delta_0.01_resolvable": false
+    },
+    {
+      "n_per_class": 1000,
+      "n_total_images": 2000,
+      "single_auc_se": 0.0147,
+      "single_auc_halfwidth_95": 0.0289,
+      "paired_delta_se_closest_pair": 0.028,
+      "paired_delta_halfwidth_95": 0.0549,
+      "delta_0.01_resolvable": false
+    }
+  ],
+  "caveat": "Extrapolation assumes variance ~ 1/n and that the technical-sample score correlation is representative of the recapture setting."
+}

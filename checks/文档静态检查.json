@@ -1,0 +1,213 @@
+{
+  "scope": "DOCUMENT_STATIC_CHECKS_ONLY",
+  "check_count": 41,
+  "passed": 41,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "nine_stage_heading_ids",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nine_prediction_heading_ids",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nine_result_heading_ids",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nine_workorders",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nine_prediction_templates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nine_result_templates",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "task_ids",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dependency_order",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "early_stop_can_finalize",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "configuration_unapproved",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_fixed_calendar_start",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "inherited_source_budget",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "additional_digital_pool_not_invented",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "confirmatory_n_not_invented",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "source_preserved",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mounted_original_unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "proposal_numbers_marked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_g9_or_raw_requirement",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "fixed_and_reselected_uncertainty_distinguished",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_optional_peeking",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_pilot_as_confirmation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "record_completeness_not_success_rate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "same_budget_strong_baselines",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_capture_cost_multiplied_by_models",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "full_pool_replays_not_independent",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_zero_point_five_imputation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "new_candidate_requires_competition",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "confidence_and_practicality_separate",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown_code_fences_balanced",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "display_math_balanced",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "every_stage_complete",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "prediction_mapping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "predictions_not_falsely_frozen",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "result_mapping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "results_unexecuted",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_fabricated_results",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "workday_windows_cover_1_to_40",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "summary_ids",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "main_tables_well_formed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "summary_tables_well_formed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_research_run_claim",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

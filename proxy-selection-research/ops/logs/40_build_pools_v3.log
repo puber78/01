@@ -1,0 +1,45 @@
+Traceback (most recent call last):
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\.venv\Lib\site-packages\fsspec\implementations\http.py", line 447, in _info
+    await _file_info(
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\.venv\Lib\site-packages\fsspec\implementations\http.py", line 865, in _file_info
+    r.raise_for_status()
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\.venv\Lib\site-packages\aiohttp\client_reqrep.py", line 842, in raise_for_status
+    raise ClientResponseError(
+aiohttp.client_exceptions.ClientResponseError: 429, message='Too Many Requests', url='https://hf-mirror.com/datasets/detection-datasets/coco/resolve/main/data/train-00001-of-00040-2c2b33b9504aa843.parquet'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\scripts\build_source_pools.py", line 455, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\scripts\build_source_pools.py", line 250, in main
+    photo = fetch_coco(n_photo, used_coco, ledger, log.run_id)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\scripts\build_source_pools.py", line 126, in fetch_coco
+    for rec in iter_rows(url, limit=220, columns=["image_id", "image", "width", "height"]):
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\src\proxy_selection\hfstream.py", line 67, in iter_rows
+    for row in read_rows(url, **kwargs):
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\src\proxy_selection\hfstream.py", line 63, in read_rows
+    raise last_exc
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\src\proxy_selection\hfstream.py", line 51, in read_rows
+    with fs.open(url, "rb", block_size=block_size) as fh:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\.venv\Lib\site-packages\fsspec\spec.py", line 1405, in open
+    f = self._open(
+        ^^^^^^^^^^^
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\.venv\Lib\site-packages\fsspec\implementations\http.py", line 386, in _open
+    size = size or info.update(self.info(path, **kwargs)) or info["size"]
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\.venv\Lib\site-packages\fsspec\asyn.py", line 118, in wrapper
+    return sync(self.loop, func, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\.venv\Lib\site-packages\fsspec\asyn.py", line 103, in sync
+    raise return_result
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\.venv\Lib\site-packages\fsspec\asyn.py", line 56, in _runner
+    result[0] = await coro
+                ^^^^^^^^^^
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\.venv\Lib\site-packages\fsspec\implementations\http.py", line 460, in _info
+    raise FileNotFoundError(url) from exc
+FileNotFoundError: https://hf-mirror.com/datasets/detection-datasets/coco/resolve/main/data/train-00001-of-00040-2c2b33b9504aa843.parquet

@@ -1,0 +1,64 @@
+{
+  "model_key": "siglip_ai_human",
+  "status": "OK",
+  "registry": {
+    "model_key": "siglip_ai_human",
+    "repo": "Ateeqq/ai-vs-human-image-detector",
+    "revision": "60e82406916921b823616bee33397baab38af3f0",
+    "architecture": "SiglipForImageClassification",
+    "basis": "SigLIP vision-language backbone fine-tuned for AI-vs-human classification",
+    "license": "apache-2.0",
+    "ai_label": null,
+    "batch_size": 16,
+    "notes": "Different pretraining objective (contrastive image-text) from Swin baselines."
+  },
+  "metadata": {
+    "repo": "Ateeqq/ai-vs-human-image-detector",
+    "requested_revision": "60e82406916921b823616bee33397baab38af3f0",
+    "snapshot_dir": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\models\\hf_cache\\models--Ateeqq--ai-vs-human-image-detector\\snapshots\\60e82406916921b823616bee33397baab38af3f0",
+    "snapshot_files": {
+      "config.json": "4ae0303aff5c84eaeabc3721ccc931a8b2968ed8e1d1a1285159242bf2a36da0",
+      "model.safetensors": "ab0b8cad7462a047ff4e2888cb4f11b1abe568d73ce07a2649a3f1541f73675f",
+      "preprocessor_config.json": "0540e59bcd8f44c3d097169b846c4745186805fce5a876036f3f8c6d9edfcc32",
+      "README.md": "55d0e7e7616165b12aab886358357034db2b9690c756d6f0313c29c590d06614",
+      "trainer_state.json": "1c3e7133fd6d70e54e45f49ea9856c6a85e9a6766c61c1cbe7c88d077bea0620"
+    },
+    "id2label": {
+      "0": "ai",
+      "1": "hum"
+    },
+    "ai_index": 0,
+    "ai_label": "ai",
+    "architectures": [
+      "SiglipForImageClassification"
+    ],
+    "num_parameters": 92885762,
+    "device": "cuda:0",
+    "batch_size": 16
+  },
+  "config_fingerprint": {
+    "repo": "Ateeqq/ai-vs-human-image-detector",
+    "revision": "60e82406916921b823616bee33397baab38af3f0",
+    "checkpoint_hash": "5620845f239d2f4a1c0e4cb6b9d675e4dc419b05c49974724af6f870d3e3ca91",
+    "preprocess_hash": "2bd74271f5a5b00a764b7a696117974beb676f6306ecf2b5c7c7a1d0f26ac108",
+    "orientation": "higher_is_ai",
+    "ai_index": 0,
+    "batch_size": 16,
+    "device": "cuda:0"
+  },
+  "load_seconds": 21.65,
+  "score_seconds": 1.41,
+  "n_scored": 80,
+  "n_failed": 0,
+  "tech_auc": 0.84875,
+  "tech_n": 80,
+  "repeat_inference": {
+    "n": 8,
+    "max_abs_diff": 4.6566128730773926e-09,
+    "max_allowed": 1.099008893966675e-05,
+    "atol": 1e-06,
+    "rtol": 1e-05,
+    "passes": true,
+    "seconds": 0.14
+  }
+}

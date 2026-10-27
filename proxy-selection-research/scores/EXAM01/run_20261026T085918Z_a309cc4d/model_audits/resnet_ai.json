@@ -1,0 +1,68 @@
+{
+  "model_key": "resnet_ai",
+  "status": "OK",
+  "registry": {
+    "model_key": "resnet_ai",
+    "repo": "mmanikanta/ResNet_AI_image_detector",
+    "revision": "a11a1cea6ee684cd0c2b1bbb6e5b5cd04232f30e",
+    "architecture": "ResNetForImageClassification",
+    "basis": "ResNet-50 style convolutional classifier for fake-vs-real images",
+    "license": "apache-2.0",
+    "ai_label": null,
+    "batch_size": 16,
+    "notes": "Classic CNN baseline family."
+  },
+  "metadata": {
+    "repo": "mmanikanta/ResNet_AI_image_detector",
+    "requested_revision": "a11a1cea6ee684cd0c2b1bbb6e5b5cd04232f30e",
+    "snapshot_dir": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\models\\hf_cache\\models--mmanikanta--ResNet_AI_image_detector\\snapshots\\a11a1cea6ee684cd0c2b1bbb6e5b5cd04232f30e",
+    "snapshot_files": {
+      "all_results.json": "2b1136f62418c15e486d0cd2937189726e000fc3233c32b07934e24eed9b4f5e",
+      "config.json": "58b0a3094c87021e5cc86d21c6015f97c9bd875afdcbf10d6a131b61ceb3baed",
+      "eval_results.json": "95ba80f159294d093b03181e192e4b8669ba3e10703f5adfd1fb78e10ddf66ff",
+      "preprocessor_config.json": "9ef34d18dbf7909143a91f05ad23457180fcfed05034bf94843f300e32a9b968",
+      "pytorch_model.bin": "5872b1cbd76858f7bb60815cc2d4b77cd692986292725feeab1a64a8ca05b285",
+      "README.md": "91669217ef9498731108128d7d444b11f9bfc63f67a1f42e1f7c6293ea10fd77",
+      "train_results.json": "f04682914f51db31065e52e56fff9080bfb8a5081ca5691749a6869f97ea1c00",
+      "trainer_state.json": "6bcc51073564b4e676f47f483350b8794bc754da990d78631db3aaa912cbc316",
+      "training_args.bin": "043368f6382892a12c0e3ac2357485f1b444a15a251071b4582efd55dc8bc4e4"
+    },
+    "id2label": {
+      "0": "FAKE",
+      "1": "REAL"
+    },
+    "ai_index": 0,
+    "ai_label": "FAKE",
+    "architectures": [
+      "ResNetForImageClassification"
+    ],
+    "num_parameters": 23512130,
+    "device": "cuda:0",
+    "batch_size": 16
+  },
+  "config_fingerprint": {
+    "repo": "mmanikanta/ResNet_AI_image_detector",
+    "revision": "a11a1cea6ee684cd0c2b1bbb6e5b5cd04232f30e",
+    "checkpoint_hash": "e6a786890e3d25033ea31de4079411a670b48170240e2145740fd87022bc07ea",
+    "preprocess_hash": "d88882f29d3d14b8ccaaf91c836e1df0a041009f7e602f710fbb4810acdd80ba",
+    "orientation": "higher_is_ai",
+    "ai_index": 0,
+    "batch_size": 16,
+    "device": "cuda:0"
+  },
+  "load_seconds": 5.63,
+  "score_seconds": 1.27,
+  "n_scored": 80,
+  "n_failed": 0,
+  "tech_auc": 0.3121875,
+  "tech_n": 80,
+  "repeat_inference": {
+    "n": 8,
+    "max_abs_diff": 0.0005377233028411865,
+    "max_allowed": 1.311385802924633e-06,
+    "atol": 1e-06,
+    "rtol": 1e-05,
+    "passes": false,
+    "seconds": 0.13
+  }
+}

@@ -1,0 +1,25 @@
+--- original/workorders/EXAM07.md
++++ harness/workorders/EXAM07.md
+@@ -1,9 +1,11 @@
+-# 工作卡（未执行）
++# DeepSeek Harness工作卡（未执行）
++
++> 执行前读取同目录上一级的 `DeepSeek_Harness_执行说明.md`；本卡的预测、工作、验收和失败分支沿用原版，不授权越级执行。实体拍摄和批准仍由人工完成；独立评价不得与开发共享未揭示测试上下文。
+ 
+ ### EXAM07｜独立来源上的确认性评价
+ 
+ **日程**：第5—6周 D24—D30。**依赖**：EXAM06。  
+-**负责人**：独立数据保管/采集与评价角色；开发只运行获准C_confirm与D_sel_confirm。  
++**负责人**：独立数据保管/采集与评价角色；DeepSeek Harness开发侧只运行获准C_confirm与D_sel_confirm，评价侧仅运行冻结程序。  
+ **目标问题**：EXAM06冻结的那一句核心判断，能否在新来源和独立评价中成立？
+ 
+ #### PREDICTION07｜事前预期与推理/选型范围
+@@ -22,7 +24,7 @@
+ 5. 绝对regret、全部候选差异、近最优集合、来源/会话敏感性和成本作为预定辅助；明确只对候选集合和已测总体成立。
+ 6. 达到固定样本量后一次性完成主要评价。区间宽则如实记录；不得反复查看p值、边拍边加样本直到通过。新增轮次要独立注册并保留原结果。
+ 
+-**Codex实现范围**：confirmatory_select、blind_predict、paired_evaluate、simultaneous_compare、claim_export；仅运行冻结分析。
++**DeepSeek Harness实现范围**：confirmatory_select、blind_predict、paired_evaluate、simultaneous_compare、claim_export；仅运行冻结分析。
+ 
+ #### RESULT07｜应交付的真实产物
+ 

@@ -1,0 +1,56 @@
+# RESULT01 — 任务冻结、环境与最小计算链（工程结果）
+
+- execution_status: **PASS**
+- scientific_status: **NOT_APPLICABLE**
+- next_decision: **LIMITED_CONTINUE**
+- 生成时间: 2026-10-26T09:06:22Z（UTC）
+
+## 验收硬条件
+
+| 条件 | 结果 | 证据 |
+|---|---|---|
+| A1_provenance | PASS | C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\data\raw\TECH\technical_sources.csv |
+| A2_tests | PASS | C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\ops\logs\09_pytest_exam01.log |
+| A3_real_chain | PASS | C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\scores\EXAM01\run_20261026T090345Z_acb8682b\technical_scores.parquet |
+| A4_fp32_tolerance | PASS | C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\scores\EXAM01\run_20261026T090345Z_acb8682b\technical_metrics.json |
+| A5_id_contract | PASS | src/proxy_selection/contracts/ids.py |
+
+## 真实运行证据
+
+- 技术样本：80 张（40 真实摄影 / 40 扩散生成）
+- 模型：6 个冻结公开检查点，逐图评分 480 行，失败 0 行
+- FP32 重复推理最大差：0.000e+00（允许 1.100e-05）
+- 单元测试：首轮 68 passed / 0 failed；复核 68 passed / 0 failed
+- 原始执行包：34 个文件全部未修改（True）
+- 拒绝覆盖尝试：1 次（守卫生效；实际覆盖 0 次）
+
+## 技术样本 AUC（仅工程审计，不作科学结论）
+
+| 候选 | 架构 | 技术样本 AUC | 失败行 | 重复推理最大差 |
+|---|---|---:|---:|---|
+| swin_sdxl | SwinForImageClassification | 0.8269 | 0 | 0.00e+00 |
+| siglip_ai_human | SiglipForImageClassification | 0.8488 | 0 | 0.00e+00 |
+| convnext_ai | ConvNextForImageClassification | 0.5081 | 0 | 0.00e+00 |
+| resnet_ai | ResNetForImageClassification | 0.3122 | 0 | 0.00e+00 |
+| swinv2_deploy | Swinv2ForImageClassification | 0.9213 | 0 | 0.00e+00 |
+| vit_ai_real | ViTForImageClassification | 0.5244 | 0 | 0.00e+00 |
+
+## 尚缺（阻塞 EXAM02 的实体资源）
+
+- 相机/手机、显示屏幕、固定支架与受控照明：未登记、未拍摄。
+- 目标环境（屏幕—相机—几何—输出模式）参数与设备编号：未提供。
+- 人工采集权限、来源许可确认与研究负责人的参数批准：未提供。
+
+## 偏离与限制
+
+- **D1** pip stalled while downloading the 2.5 GB torch wheel — none on results; wheel fetched by range download, integrity-checked, then installed
+- **D2** huggingface.co unreachable; HF mirror used; datasets cache path exceeded the Windows path limit — datasets read via an HTTP-range parquet reader instead of datasets streaming
+- **D3** HF Xet CAS returned 401 through the mirror; repeat-inference subset first changed batch shape — Xet disabled (HF_HUB_DISABLE_XET=1); tolerance now measured at identical batching and equals 0.0
+
+- TECH-only: no physical screen recapture was performed; no camera/screen device is registered yet.
+- No T_pilot / T_confirm data exists, so no selection loss, no interval and no scientific status is claimed.
+- Candidate checkpoints are public and frozen; their technical-sample AUC is engineering audit only, not a selection criterion.
+- One candidate (resnet_ai) shows below-chance direction on the technical sample; it is flagged for EXAM03 candidate review, not silently flipped.
+- All numeric thresholds remain DRAFT_UNAPPROVED pending principal review.
+
+> 本文件由 `scripts/build_result01.py` 从实际产物生成；`reviewed_by` 与 `approved_next_stage` 留空，必须由研究负责人真实签署。

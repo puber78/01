@@ -1,0 +1,91 @@
+{
+  "scope": "EXECUTOR_DOCUMENT_MIGRATION_ONLY",
+  "source_archive_sha256": "bfd5b7b09ec369cb6ffc68bb81175bf7f7011a43365b01bbf1475f5f23e7b60e",
+  "changed_files": [
+    {
+      "path": "数字代理选型_EXAM01-09_日程与验收大纲.md",
+      "original_sha256": "50ae9184c46548db39db68ed717727106fa7a8fc59cdc3aa65f1f96ab32df1f4",
+      "new_sha256": "da1c11cf90011b7a988a4a9c0bf55c8d60cd1590c151773e2d5ebff5fb20144e"
+    },
+    {
+      "path": "九阶段总日程与验收一览.md",
+      "original_sha256": "4ba75f6e95b5f5b5be7539943afb397a7b76c7fe8ab4db07cfca0242686daacb",
+      "new_sha256": "248d306f4eb7c1b8aacb5b8de3baa8f50f29622c76250de6f73db7f7dacd3edb"
+    },
+    {
+      "path": "九阶段任务描述.json",
+      "original_sha256": "b860bc1c2f97945ad66208c99b109e09298d472d3f921efeda356368d84c0976",
+      "new_sha256": "15e842ea5aa65088c73705c87b881b0b4223c48eaf3b321aa807a789a9271bb3"
+    },
+    {
+      "path": "workorders/EXAM01.md",
+      "original_sha256": "b253f5834685dc133fe43b06ac8fef04e858dabca0f5084cd42dfbeebecf182a",
+      "new_sha256": "d3cffd14eda40d13e6c3cffd2f9d5d4baa4bc7c2c0ca6c80ccea158c8c259803"
+    },
+    {
+      "path": "workorders/EXAM02.md",
+      "original_sha256": "854c799b1697187b0c42ab504c8a408ad7d263cdde63250b9bb7c3eadd06060e",
+      "new_sha256": "5ca23af12d97392afcbf154413d6be45cc9f6fc1785861744e94d5ec9d055c6b"
+    },
+    {
+      "path": "workorders/EXAM03.md",
+      "original_sha256": "1874720e4d9403c32efbe65ed86f1b21313d3c6a30e84de602587d6565b4d1c8",
+      "new_sha256": "b4fff575ce4e09ebc64bd83473399cae47e85a81127c5312c19dfb7679f14a89"
+    },
+    {
+      "path": "workorders/EXAM04.md",
+      "original_sha256": "f2a61bcf94a0a04b5fbc1b3b1c59c6500aaf3d6bb75e47f65a721d3761893f43",
+      "new_sha256": "d1a403162f365757526ae9ef68b03810959eed41bbc7283133310b632a489d27"
+    },
+    {
+      "path": "workorders/EXAM05.md",
+      "original_sha256": "842d4024ba081737a79577d66ae0e2e6deb1e05b6fcc0bd3c5eeca148a448589",
+      "new_sha256": "7d826063bf67037f3a88d26d64d123ee15aa265e2073838baa996ac01bbed29d"
+    },
+    {
+      "path": "workorders/EXAM06.md",
+      "original_sha256": "c04be56f4c85c4a6fff810913cfb5286eb4f7f854c2579c281db45cba450ef2b",
+      "new_sha256": "a889aab7ec11ba53b18055062a369c6a09328c4ac198256ccc107f311a66e5d6"
+    },
+    {
+      "path": "workorders/EXAM07.md",
+      "original_sha256": "b02e24021027afaecbad796f9f30b06f7b53bac2ac09cfe62dd1b477ed2fdd30",
+      "new_sha256": "d745a4efda78fe84e0b94dd41d4854dbae3862555e377b953e3a3a1438328dda"
+    },
+    {
+      "path": "workorders/EXAM08.md",
+      "original_sha256": "747a38657353cd9fb504f2b72f6905fc402edc44233eedc0d71ec1cb042b30cf",
+      "new_sha256": "bb530b510a97ff3cb6b3c883fc26fa6d17050c737561df8d63c48527673c1e05"
+    },
+    {
+      "path": "workorders/EXAM09.md",
+      "original_sha256": "e77f851d1436d15b4741d8132edfb307e3f108219b6bd377f75f9f5a2cf10a13",
+      "new_sha256": "1d42cf11bc1bc6655db88645cecb07ec9f7bdd45581c043b054c30e1044c20f1"
+    }
+  ],
+  "unchanged_files": [
+    "checks/check_plan.py",
+    "checks/文档静态检查.json",
+    "inputs/研究切口建议_数字代理评测与真实翻拍选型_v2_原样.md",
+    "predictions/PREDICTION01.yaml",
+    "predictions/PREDICTION02.yaml",
+    "predictions/PREDICTION03.yaml",
+    "predictions/PREDICTION04.yaml",
+    "predictions/PREDICTION05.yaml",
+    "predictions/PREDICTION06.yaml",
+    "predictions/PREDICTION07.yaml",
+    "predictions/PREDICTION08.yaml",
+    "predictions/PREDICTION09.yaml",
+    "templates/RESULT01.template.json",
+    "templates/RESULT02.template.json",
+    "templates/RESULT03.template.json",
+    "templates/RESULT04.template.json",
+    "templates/RESULT05.template.json",
+    "templates/RESULT06.template.json",
+    "templates/RESULT07.template.json",
+    "templates/RESULT08.template.json",
+    "templates/RESULT09.template.json",
+    "验收参数_待批准.yaml"
+  ],
+  "current_scientific_status": "UNTESTED"
+}

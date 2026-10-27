@@ -1,0 +1,368 @@
+{
+  "scope": "DOCUMENT_MIGRATION_CHECKS_ONLY",
+  "check_count": 72,
+  "passed": 72,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "task_status_unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "exactly_nine_stages",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "parameter_file_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM01_only_owner_changed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM01_owner_harness",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "predictions/PREDICTION01.yaml_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "templates/RESULT01.template.json_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM01_workcard_only_executor_edits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM01_owner_matches_main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM02_only_owner_changed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM02_owner_harness",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "predictions/PREDICTION02.yaml_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "templates/RESULT02.template.json_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM02_workcard_only_executor_edits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM02_owner_matches_main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM03_only_owner_changed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM03_owner_harness",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "predictions/PREDICTION03.yaml_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "templates/RESULT03.template.json_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM03_workcard_only_executor_edits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM03_owner_matches_main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM04_only_owner_changed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM04_owner_harness",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "predictions/PREDICTION04.yaml_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "templates/RESULT04.template.json_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM04_workcard_only_executor_edits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM04_owner_matches_main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM05_only_owner_changed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM05_owner_harness",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "predictions/PREDICTION05.yaml_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "templates/RESULT05.template.json_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM05_workcard_only_executor_edits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM05_owner_matches_main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM06_only_owner_changed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM06_owner_harness",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "predictions/PREDICTION06.yaml_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "templates/RESULT06.template.json_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM06_workcard_only_executor_edits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM06_owner_matches_main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM07_only_owner_changed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM07_owner_harness",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "predictions/PREDICTION07.yaml_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "templates/RESULT07.template.json_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM07_workcard_only_executor_edits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM07_owner_matches_main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM08_only_owner_changed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM08_owner_harness",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "predictions/PREDICTION08.yaml_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "templates/RESULT08.template.json_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM08_workcard_only_executor_edits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM08_owner_matches_main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM09_only_owner_changed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM09_owner_harness",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "predictions/PREDICTION09.yaml_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "templates/RESULT09.template.json_byte_identical",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM09_workcard_only_executor_edits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "EXAM09_owner_matches_main",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "statistics_section_exactly_preserved",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "dependency_branches_exactly_preserved",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "publication_mapping_exactly_preserved",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "schedule_and_gates_summary_unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "active_tasks_no_codex_assignments",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "entry_documents_exist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "unknown_cli_not_claimed_implemented",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "human_capture_retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "independent_context_retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "executor_not_research_detector",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "first_round_is_exam01",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_runtime_execution_claim",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "original_package_checksum",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no_scientific_result_directory",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "json_yaml_parseable",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

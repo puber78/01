@@ -1,0 +1,297 @@
+{
+  "scope": "ARTIFACT_INTEGRITY_ONLY",
+  "checks": {
+    "checks/文档静态检查.json": {
+      "scope": "DOCUMENT_STATIC_CHECKS_ONLY",
+      "check_count": 41,
+      "passed": 41,
+      "failed": 0
+    },
+    "checks/执行器迁移检查.json": {
+      "scope": "DOCUMENT_MIGRATION_CHECKS_ONLY",
+      "check_count": 72,
+      "passed": 72,
+      "failed": 0
+    }
+  },
+  "unchanged_scientific_contract": true,
+  "harness_connected": false,
+  "research_experiments_run": false,
+  "output_files": [
+    {
+      "path": "DeepSeek_Harness_执行说明.md",
+      "sha256": "0df25ca4ae2a893ead7cf65d6969224d8eaeeea2eb1ad174d411b2cdca54a0d2",
+      "bytes": 9190
+    },
+    {
+      "path": "DeepSeek_Harness_首轮启动指令.md",
+      "sha256": "abffd3aa809b669e3d6a25cd7c134f7afde674b6bb26a0915467176863be496b",
+      "bytes": 2986
+    },
+    {
+      "path": "README.md",
+      "sha256": "5d09045c6ebfb59375a9a36bb02489b3788ff78a632c3164db674c3109dfbed4",
+      "bytes": 1061
+    },
+    {
+      "path": "checks/check_executor_migration.py",
+      "sha256": "c32d28ffad91303773b6a81f531822dd03dd38f2f094a3a172ad6995ca70d2ca",
+      "bytes": 5737
+    },
+    {
+      "path": "checks/check_plan.py",
+      "sha256": "c7483b4179c153cfb245ead274cc82099da066e338a284ae15b9c99f344507a2",
+      "bytes": 6792
+    },
+    {
+      "path": "checks/执行器迁移检查.json",
+      "sha256": "fe781ad07340ae111e1082e95f4a685b95cd004f0f0843a655733c7fecf044ec",
+      "bytes": 7427
+    },
+    {
+      "path": "checks/文档静态检查.json",
+      "sha256": "6558282f48f446af74c7bee2448197e2b0f877d6182aeaf4810cb29759ecc77b",
+      "bytes": 3988
+    },
+    {
+      "path": "inputs/研究切口建议_数字代理评测与真实翻拍选型_v2_原样.md",
+      "sha256": "53be5a9d39b86fb18a1d7644d80313a21a49140683bc1f87a990baaddbd1bfa3",
+      "bytes": 46867
+    },
+    {
+      "path": "migration/diffs/workorders__EXAM01.md.diff",
+      "sha256": "1fa9b75542b625141711399e2fce1c221e25e2a03726d3760e29337f77ec0d4b",
+      "bytes": 1633
+    },
+    {
+      "path": "migration/diffs/workorders__EXAM02.md.diff",
+      "sha256": "e4329293336bb8508eccf9fefdad01e140bb1f5e7cbf185321909d564f34e4b7",
+      "bytes": 1721
+    },
+    {
+      "path": "migration/diffs/workorders__EXAM03.md.diff",
+      "sha256": "d28932754401090bcc0b3ea85c20c2b4904801ee49b73d1326d2ba8429af26f1",
+      "bytes": 1605
+    },
+    {
+      "path": "migration/diffs/workorders__EXAM04.md.diff",
+      "sha256": "ad1e0919b66ebea16867b68c7f7db7dbf86f1952f0b4ba984fd34b9942d02310",
+      "bytes": 1740
+    },
+    {
+      "path": "migration/diffs/workorders__EXAM05.md.diff",
+      "sha256": "14f1bdc0886c6ae9fc40399bf437099d7ae37aeb8a7500317286948c4a347a21",
+      "bytes": 1561
+    },
+    {
+      "path": "migration/diffs/workorders__EXAM06.md.diff",
+      "sha256": "b2a1c57d64e4607790dd497ab3a469c8cbb4b87969da97c09c7e6d99ad988d02",
+      "bytes": 1735
+    },
+    {
+      "path": "migration/diffs/workorders__EXAM07.md.diff",
+      "sha256": "cfea49f8b3461bb99b60c6c4740f4c08e5cd59f588577c986d35185c93246d21",
+      "bytes": 1695
+    },
+    {
+      "path": "migration/diffs/workorders__EXAM08.md.diff",
+      "sha256": "d0c53915d24bc40f3fb4bcfc3e5de742fc299a7561cb214698c8696f171d3bcb",
+      "bytes": 1724
+    },
+    {
+      "path": "migration/diffs/workorders__EXAM09.md.diff",
+      "sha256": "fb8d34d38d76cdc34504b89c987dcc6058f89ca8aacd8d0a40a568cb4c8e5183",
+      "bytes": 1579
+    },
+    {
+      "path": "migration/diffs/九阶段任务描述.json.diff",
+      "sha256": "30035e600013ba2b06d728c5c4e6696b1faa039daff6d5877eb69f756125ddb8",
+      "bytes": 8617
+    },
+    {
+      "path": "migration/diffs/九阶段总日程与验收一览.md.diff",
+      "sha256": "b69565cff269905b3fe731b52f9e78765e7e7f124fa46afc1f84de6c6f69c0e7",
+      "bytes": 2339
+    },
+    {
+      "path": "migration/diffs/数字代理选型_EXAM01-09_日程与验收大纲.md.diff",
+      "sha256": "cc8a596eb903de23ef4c4e7702f8dae3d54121f09eea926b0caab4f1ce4a8f81",
+      "bytes": 16900
+    },
+    {
+      "path": "migration/九阶段原执行包_原样.zip",
+      "sha256": "bfd5b7b09ec369cb6ffc68bb81175bf7f7011a43365b01bbf1475f5f23e7b60e",
+      "bytes": 101774
+    },
+    {
+      "path": "migration/迁移清单.json",
+      "sha256": "90127c5738d88bf185a25e34622a5423a4f849867e884d833a295ee1f83ae894",
+      "bytes": 3947
+    },
+    {
+      "path": "predictions/PREDICTION01.yaml",
+      "sha256": "8cad812b2943dbac44f7e8a96ba166a64048a794d2d6346c099514650d85b7e9",
+      "bytes": 860
+    },
+    {
+      "path": "predictions/PREDICTION02.yaml",
+      "sha256": "ded126594ca0a25afdbf3e699eb7b1e09515c652b62cfc6b83be4b1588952b88",
+      "bytes": 928
+    },
+    {
+      "path": "predictions/PREDICTION03.yaml",
+      "sha256": "2521d98f139e9fd6163cbfef66f784bd71e33aa1fbade7c46867552a935a9f25",
+      "bytes": 881
+    },
+    {
+      "path": "predictions/PREDICTION04.yaml",
+      "sha256": "762d65819549982fbf5caef3df0986afcfb290db8a3818a1c7d57b7aead90650",
+      "bytes": 831
+    },
+    {
+      "path": "predictions/PREDICTION05.yaml",
+      "sha256": "207133759555ebd64c39239496e8f808e0792c2723700bdd0d14f9710ef9ae2a",
+      "bytes": 842
+    },
+    {
+      "path": "predictions/PREDICTION06.yaml",
+      "sha256": "ed2978a295a27bc097e7fde022ae606a0f480a48fb3bc51b9d1d529d3d967cc9",
+      "bytes": 883
+    },
+    {
+      "path": "predictions/PREDICTION07.yaml",
+      "sha256": "41a19360bcaa4a9a1d5fbb7e1e07db676f1f9398592ab6f7f9bc40cc6435294c",
+      "bytes": 940
+    },
+    {
+      "path": "predictions/PREDICTION08.yaml",
+      "sha256": "412d1eea373f4560bf00ee53aa10644efe48ffe29d4d27c814e1a77ce0b5a002",
+      "bytes": 897
+    },
+    {
+      "path": "predictions/PREDICTION09.yaml",
+      "sha256": "a0cfec57d29d132fd2a064a2e9c737988d0f3f2c104b8439a33c9702c4809bc8",
+      "bytes": 822
+    },
+    {
+      "path": "templates/RESULT01.template.json",
+      "sha256": "3cbecaaebd8f17d542f5bbaa0bf786acd0e0d261d6b9704cdb117cf7a2ac2b84",
+      "bytes": 699
+    },
+    {
+      "path": "templates/RESULT02.template.json",
+      "sha256": "34d375533ca6b2bc0be49e49034f4dc2e0d5bde2626c989fe161063c05446be0",
+      "bytes": 699
+    },
+    {
+      "path": "templates/RESULT03.template.json",
+      "sha256": "0229c26f0e4d88586a62d5541836c26bcaf36b454fe70da02d1ef63895cb1026",
+      "bytes": 699
+    },
+    {
+      "path": "templates/RESULT04.template.json",
+      "sha256": "cf81e6712c2f064547920adbea387ba8c8a1de94f7febfa1723e9accca5338c9",
+      "bytes": 699
+    },
+    {
+      "path": "templates/RESULT05.template.json",
+      "sha256": "23b40e1e5a7c1324770c81e22b40fd18096845de30076f9ed00d4cc14fa1da90",
+      "bytes": 699
+    },
+    {
+      "path": "templates/RESULT06.template.json",
+      "sha256": "4d7a96e2898684c2e2b3606c39e7b82407c0cce86f7feea61f73bf4806812f1b",
+      "bytes": 699
+    },
+    {
+      "path": "templates/RESULT07.template.json",
+      "sha256": "658ebd2ee7326ba7237d6198afce2067392eca56e2568adb69733da6b8922e39",
+      "bytes": 699
+    },
+    {
+      "path": "templates/RESULT08.template.json",
+      "sha256": "bbf65b3fc21288969393e6686cf22cc1d38dd09e09d0d4855a5e45f949e7612c",
+      "bytes": 699
+    },
+    {
+      "path": "templates/RESULT09.template.json",
+      "sha256": "3a87a480ddc985ee588d773a2c175ecbefc6f3986a5738a467e3e051ab0d46cd",
+      "bytes": 699
+    },
+    {
+      "path": "workorders/EXAM01.md",
+      "sha256": "d3cffd14eda40d13e6c3cffd2f9d5d4baa4bc7c2c0ca6c80ccea158c8c259803",
+      "bytes": 3802
+    },
+    {
+      "path": "workorders/EXAM02.md",
+      "sha256": "5ca23af12d97392afcbf154413d6be45cc9f6fc1785861744e94d5ec9d055c6b",
+      "bytes": 4143
+    },
+    {
+      "path": "workorders/EXAM03.md",
+      "sha256": "b4fff575ce4e09ebc64bd83473399cae47e85a81127c5312c19dfb7679f14a89",
+      "bytes": 3804
+    },
+    {
+      "path": "workorders/EXAM04.md",
+      "sha256": "d1a403162f365757526ae9ef68b03810959eed41bbc7283133310b632a489d27",
+      "bytes": 3835
+    },
+    {
+      "path": "workorders/EXAM05.md",
+      "sha256": "7d826063bf67037f3a88d26d64d123ee15aa265e2073838baa996ac01bbed29d",
+      "bytes": 3765
+    },
+    {
+      "path": "workorders/EXAM06.md",
+      "sha256": "a889aab7ec11ba53b18055062a369c6a09328c4ac198256ccc107f311a66e5d6",
+      "bytes": 4584
+    },
+    {
+      "path": "workorders/EXAM07.md",
+      "sha256": "d745a4efda78fe84e0b94dd41d4854dbae3862555e377b953e3a3a1438328dda",
+      "bytes": 3829
+    },
+    {
+      "path": "workorders/EXAM08.md",
+      "sha256": "bb530b510a97ff3cb6b3c883fc26fa6d17050c737561df8d63c48527673c1e05",
+      "bytes": 3904
+    },
+    {
+      "path": "workorders/EXAM09.md",
+      "sha256": "1d42cf11bc1bc6655db88645cecb07ec9f7bdd45581c043b054c30e1044c20f1",
+      "bytes": 3620
+    },
+    {
+      "path": "九阶段任务描述.json",
+      "sha256": "15e842ea5aa65088c73705c87b881b0b4223c48eaf3b321aa807a789a9271bb3",
+      "bytes": 32609
+    },
+    {
+      "path": "九阶段总日程与验收一览.md",
+      "sha256": "248d306f4eb7c1b8aacb5b8de3baa8f50f29622c76250de6f73db7f7dacd3edb",
+      "bytes": 7126
+    },
+    {
+      "path": "执行主体迁移说明.md",
+      "sha256": "0cbab020199bf65811fd5dca4aba2eff96321bcbd56aca03e0e1290a8bd0a1d8",
+      "bytes": 2825
+    },
+    {
+      "path": "数字代理选型_EXAM01-09_日程与验收大纲.md",
+      "sha256": "da1c11cf90011b7a988a4a9c0bf55c8d60cd1590c151773e2d5ebff5fb20144e",
+      "bytes": 56643
+    },
+    {
+      "path": "来源与交付范围.json",
+      "sha256": "d16070f0555c5721819a9c2a4ab70ffa5b4cfed4d73c55dff79fe407322f091c",
+      "bytes": 1403
+    },
+    {
+      "path": "验收参数_待批准.yaml",
+      "sha256": "67c25c365d59cf92d8313e03b9d0831825b61894138209194f253ba98f18665f",
+      "bytes": 2937
+    }
+  ]
+}

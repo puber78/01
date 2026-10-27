@@ -1,0 +1,25 @@
+--- original/workorders/EXAM09.md
++++ harness/workorders/EXAM09.md
+@@ -1,9 +1,11 @@
+-# 工作卡（未执行）
++# DeepSeek Harness工作卡（未执行）
++
++> 执行前读取同目录上一级的 `DeepSeek_Harness_执行说明.md`；本卡的预测、工作、验收和失败分支沿用原版，不授权越级执行。实体拍摄和批准仍由人工完成；独立评价不得与开发共享未揭示测试上下文。
+ 
+ ### EXAM09｜核心结果复算、证据归档与论文大纲定稿
+ 
+ **日程**：第8周 D36—D40。**依赖**：EXAM07完成及EXAM08完成/明确跳过；早停时由EXAM05/06的正式停止决定触发。  
+-**负责人**：独立复核者＋写作Codex＋研究负责人。  
++**负责人**：独立复核者＋DeepSeek Harness写作角色＋研究负责人。  
+ **目标问题**：全部主张能否由冻结数据与代码复算，并形成一篇范围准确的论文或明确的先导报告？
+ 
+ #### PREDICTION09｜事前预期与推理/选型范围
+@@ -22,7 +24,7 @@
+ 5. 检查引用的原始归属与最新近邻；本任务不自动开展新一轮大综述，未解决全文重叠照实保留。
+ 6. 输出复现说明、数据卡、不可公开资源与限制；不自动上传数据、投稿或向他人发送邮件。
+ 
+-**Codex实现范围**：reproduce_tables、audit_claims、export_paper、release_manifest；不在本阶段训练或调参。
++**DeepSeek Harness实现范围**：reproduce_tables、audit_claims、export_paper、release_manifest；不在本阶段训练或调参。
+ 
+ #### RESULT09｜应交付的真实产物
+ 

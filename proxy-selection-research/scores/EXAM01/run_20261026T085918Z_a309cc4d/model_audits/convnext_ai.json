@@ -1,0 +1,68 @@
+{
+  "model_key": "convnext_ai",
+  "status": "OK",
+  "registry": {
+    "model_key": "convnext_ai",
+    "repo": "mmanikanta/ConvNeXT_AI_image_detector",
+    "revision": "bb63f4c062bd572ed50dcc2a28f1d67e8b8d8511",
+    "architecture": "ConvNextForImageClassification",
+    "basis": "ConvNeXt convolutional backbone fine-tuned for fake-vs-real image classification",
+    "license": "apache-2.0",
+    "ai_label": null,
+    "batch_size": 16,
+    "notes": "Convolutional family, distinct from transformer candidates."
+  },
+  "metadata": {
+    "repo": "mmanikanta/ConvNeXT_AI_image_detector",
+    "requested_revision": "bb63f4c062bd572ed50dcc2a28f1d67e8b8d8511",
+    "snapshot_dir": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\models\\hf_cache\\models--mmanikanta--ConvNeXT_AI_image_detector\\snapshots\\bb63f4c062bd572ed50dcc2a28f1d67e8b8d8511",
+    "snapshot_files": {
+      "all_results.json": "3a66b5aff1e7b715af5528cceded0fb81a10313730d46809378f355e40bdb9df",
+      "config.json": "95c69ec826f60e23ff6dc0045828dc186208f3e2fb6e6065a0c434a95c1d637f",
+      "eval_results.json": "4b4905e81719d7b4d2492ac1b15b5e8382583198c97388d0d4adb1a8d122c9dc",
+      "preprocessor_config.json": "9ef34d18dbf7909143a91f05ad23457180fcfed05034bf94843f300e32a9b968",
+      "pytorch_model.bin": "62ba08af2048a8944115cbe57eb2e608fc593fbbb78445bc5fda4c7ad665ebf7",
+      "README.md": "31281a29e68b7c2a44dcd9f7efdc65e2d5a31ecd58e704a6838fec07ef2c8bbf",
+      "train_results.json": "1a0bfa08c1ea958649b3a1fd2beeb226228d31e626a247bdd0b720b3ae5f1615",
+      "trainer_state.json": "694e5a7925910fc9bebf09ef86759a5e01bfbe5d866abcde1697952e88117f3a",
+      "training_args.bin": "e5063082e8b8e87341a7243cf5f816c74b181b3f2a45ec45714a8ff3e95a266f"
+    },
+    "id2label": {
+      "0": "FAKE",
+      "1": "REAL"
+    },
+    "ai_index": 0,
+    "ai_label": "FAKE",
+    "architectures": [
+      "ConvNextForImageClassification"
+    ],
+    "num_parameters": 27821666,
+    "device": "cuda:0",
+    "batch_size": 16
+  },
+  "config_fingerprint": {
+    "repo": "mmanikanta/ConvNeXT_AI_image_detector",
+    "revision": "bb63f4c062bd572ed50dcc2a28f1d67e8b8d8511",
+    "checkpoint_hash": "c2813e202b1a7979ae1c1c286d49eb19cbe708340bc436b103163036ed451561",
+    "preprocess_hash": "d88882f29d3d14b8ccaaf91c836e1df0a041009f7e602f710fbb4810acdd80ba",
+    "orientation": "higher_is_ai",
+    "ai_index": 0,
+    "batch_size": 16,
+    "device": "cuda:0"
+  },
+  "load_seconds": 7.37,
+  "score_seconds": 1.22,
+  "n_scored": 80,
+  "n_failed": 0,
+  "tech_auc": 0.508125,
+  "tech_n": 80,
+  "repeat_inference": {
+    "n": 8,
+    "max_abs_diff": 8.344650268554688e-07,
+    "max_allowed": 9.143999576568605e-06,
+    "atol": 1e-06,
+    "rtol": 1e-05,
+    "passes": true,
+    "seconds": 0.11
+  }
+}

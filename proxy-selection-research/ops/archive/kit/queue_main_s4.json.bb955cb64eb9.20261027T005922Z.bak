@@ -1,0 +1,1260 @@
+{
+  "session": "main_s4",
+  "created_at": "2026-10-26T09:56:32Z",
+  "items": [
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_d22c7b24182857339dbc929c",
+      "display_asset_id": "dsp_23c1e826d21d5ec1ba426cd4",
+      "file_relpath": "data/display/T_pilot/dsp_23c1e826d21d5ec1ba426cd4.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 199,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 0,
+      "source_id": "src_cf128c68188d53a8bc89054c",
+      "display_asset_id": "dsp_9276ea5121a159818b331060",
+      "file_relpath": "data/display/C_pool/dsp_9276ea5121a159818b331060.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 200,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 0,
+      "source_id": "src_b6d6130ca98c5a2ea1838651",
+      "display_asset_id": "dsp_f6cc83da6c9f586ea4b84d1c",
+      "file_relpath": "data/display/C_pool/dsp_f6cc83da6c9f586ea4b84d1c.png",
+      "geometry": {
+        "content_x": 740,
+        "content_y": 0,
+        "content_w": 1080,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 201,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 0,
+      "source_id": "src_b5bbb9174918503593828036",
+      "display_asset_id": "dsp_b6d0b33429245ebba494200a",
+      "file_relpath": "data/display/C_pool/dsp_b6d0b33429245ebba494200a.png",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": true,
+      "repeat_of_source_id": "src_b5bbb9174918503593828036",
+      "seq": 202,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_b37fcd80897757beb409fd3f",
+      "display_asset_id": "dsp_b48d0106bef455dd85c57841",
+      "file_relpath": "data/display/T_pilot/dsp_b48d0106bef455dd85c57841.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 203,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_ac6cd52732c556e4bb44e460",
+      "display_asset_id": "dsp_81bf37125a0856f1b094a287",
+      "file_relpath": "data/display/T_pilot/dsp_81bf37125a0856f1b094a287.png",
+      "geometry": {
+        "content_x": 554,
+        "content_y": 0,
+        "content_w": 1452,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 204,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_9fc687e1317b5fd182257ebf",
+      "display_asset_id": "dsp_da6e9e7cd7945958924a2a06",
+      "file_relpath": "data/display/T_pilot/dsp_da6e9e7cd7945958924a2a06.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 205,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_045a2778aa6e56fd86f11191",
+      "display_asset_id": "dsp_bf1384e6cdd75377b40f848f",
+      "file_relpath": "data/display/T_pilot/dsp_bf1384e6cdd75377b40f848f.png",
+      "geometry": {
+        "content_x": 740,
+        "content_y": 0,
+        "content_w": 1080,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 206,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 1,
+      "source_id": "src_00f661f3c89654dbb616d9fc",
+      "display_asset_id": "dsp_110c93a9a04453f4b0cf9ae3",
+      "file_relpath": "data/display/C_pool/dsp_110c93a9a04453f4b0cf9ae3.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 207,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_a4cbd6b93d0e587398ebb109",
+      "display_asset_id": "dsp_fcab9a08e229578d991a8f87",
+      "file_relpath": "data/display/T_pilot/dsp_fcab9a08e229578d991a8f87.png",
+      "geometry": {
+        "content_x": 354,
+        "content_y": 0,
+        "content_w": 1851,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 208,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_9a4fefbeb5c05e4fb11d24bd",
+      "display_asset_id": "dsp_c3e3e29a4f9b50ad9c1dcca4",
+      "file_relpath": "data/display/T_pilot/dsp_c3e3e29a4f9b50ad9c1dcca4.png",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 209,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_8fa3938326ca5b61a531edcd",
+      "display_asset_id": "dsp_49ab732f87f65bfcbb2a3617",
+      "file_relpath": "data/display/T_pilot/dsp_49ab732f87f65bfcbb2a3617.png",
+      "geometry": {
+        "content_x": 740,
+        "content_y": 0,
+        "content_w": 1080,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 210,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_8caf8fdbdcf25bc594977e3c",
+      "display_asset_id": "dsp_9ef9f1a297f55093b3ea5157",
+      "file_relpath": "data/display/T_pilot/dsp_9ef9f1a297f55093b3ea5157.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 211,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_09cd8f5806a95b11abcd6815",
+      "display_asset_id": "dsp_ac6f46693bea5ee9abf631a0",
+      "file_relpath": "data/display/T_pilot/dsp_ac6f46693bea5ee9abf631a0.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 212,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 1,
+      "source_id": "src_0c85239814195f93b290377e",
+      "display_asset_id": "dsp_7e4dd85382845fa4bcad2252",
+      "file_relpath": "data/display/C_pool/dsp_7e4dd85382845fa4bcad2252.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 213,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_edcec8b25d5b581b8ec6e5eb",
+      "display_asset_id": "dsp_6c54c4716c085859ac6eff4e",
+      "file_relpath": "data/display/T_pilot/dsp_6c54c4716c085859ac6eff4e.png",
+      "geometry": {
+        "content_x": 414,
+        "content_y": 0,
+        "content_w": 1732,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 214,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_f7519d0ee7bb5d25a84af899",
+      "display_asset_id": "dsp_9b0477cf8ae554b18366be3b",
+      "file_relpath": "data/display/T_pilot/dsp_9b0477cf8ae554b18366be3b.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 215,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_28d2c76f81aa5fd4a3a0b152",
+      "display_asset_id": "dsp_c7dc359b4f16583c89d0a50a",
+      "file_relpath": "data/display/T_pilot/dsp_c7dc359b4f16583c89d0a50a.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 216,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_236ed29c86c55ddc98a1a940",
+      "display_asset_id": "dsp_be640ce64ccf5727baa0c90c",
+      "file_relpath": "data/display/T_pilot/dsp_be640ce64ccf5727baa0c90c.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 217,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_7bbf515bdc485877a9aad4c6",
+      "display_asset_id": "dsp_b016b9eb79535a5584804b5e",
+      "file_relpath": "data/display/T_pilot/dsp_b016b9eb79535a5584804b5e.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 218,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 0,
+      "source_id": "src_79c50aceaf7250a69f01270c",
+      "display_asset_id": "dsp_153512f3b4c75175806a56de",
+      "file_relpath": "data/display/C_pool/dsp_153512f3b4c75175806a56de.png",
+      "geometry": {
+        "content_x": 740,
+        "content_y": 0,
+        "content_w": 1080,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 219,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_df75bb04552a5ffdac5ee2c2",
+      "display_asset_id": "dsp_2e8db143fd005ef5b9da2de6",
+      "file_relpath": "data/display/T_pilot/dsp_2e8db143fd005ef5b9da2de6.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 220,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_e48c510c6a1357b5a201d380",
+      "display_asset_id": "dsp_c11cb66a2c3459e39d9756d0",
+      "file_relpath": "data/display/T_pilot/dsp_c11cb66a2c3459e39d9756d0.png",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 221,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 1,
+      "source_id": "src_60c41bada315563c97128bbf",
+      "display_asset_id": "dsp_20ca0fa1e3f852bebc88e328",
+      "file_relpath": "data/display/C_pool/dsp_20ca0fa1e3f852bebc88e328.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 222,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_6067cf21116b5e57bd8453f2",
+      "display_asset_id": "dsp_aaa91103babe57a2ae22e834",
+      "file_relpath": "data/display/T_pilot/dsp_aaa91103babe57a2ae22e834.png",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 223,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 0,
+      "source_id": "src_b75672b6bc3e5040a8a2b58c",
+      "display_asset_id": "dsp_2e94bebc5a3952e599f4d401",
+      "file_relpath": "data/display/C_pool/dsp_2e94bebc5a3952e599f4d401.png",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": true,
+      "repeat_of_source_id": "src_b75672b6bc3e5040a8a2b58c",
+      "seq": 224,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_8f532a31d12b566abef6b04a",
+      "display_asset_id": "dsp_bbe7625936175fae838a67a6",
+      "file_relpath": "data/display/T_pilot/dsp_bbe7625936175fae838a67a6.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 225,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_9479e5e761565386a4a4d50c",
+      "display_asset_id": "dsp_3f95a15490ba512aaa48af32",
+      "file_relpath": "data/display/T_pilot/dsp_3f95a15490ba512aaa48af32.png",
+      "geometry": {
+        "content_x": 740,
+        "content_y": 0,
+        "content_w": 1080,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 226,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_3c9e3aa3913352d2b80ae980",
+      "display_asset_id": "dsp_73cbba95b21f5030a016e256",
+      "file_relpath": "data/display/T_pilot/dsp_73cbba95b21f5030a016e256.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 227,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_3b0081c6ab0d50db899c6189",
+      "display_asset_id": "dsp_a3547b88613956dab0217a3f",
+      "file_relpath": "data/display/T_pilot/dsp_a3547b88613956dab0217a3f.png",
+      "geometry": {
+        "content_x": 485,
+        "content_y": 0,
+        "content_w": 1589,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 228,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 0,
+      "source_id": "src_20384334ff245c1eaca68ce3",
+      "display_asset_id": "dsp_8896b5abd5135e0cae1db1cb",
+      "file_relpath": "data/display/C_pool/dsp_8896b5abd5135e0cae1db1cb.png",
+      "geometry": {
+        "content_x": 699,
+        "content_y": 0,
+        "content_w": 1161,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 229,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_a4cbd6b93d0e587398ebb109",
+      "display_asset_id": "dsp_fcab9a08e229578d991a8f87",
+      "file_relpath": "data/display/T_pilot/dsp_fcab9a08e229578d991a8f87.png",
+      "geometry": {
+        "content_x": 354,
+        "content_y": 0,
+        "content_w": 1851,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": true,
+      "repeat_of_source_id": "src_a4cbd6b93d0e587398ebb109",
+      "seq": 230,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_259f27e4372f5bcdb769ca67",
+      "display_asset_id": "dsp_ba662043130a5677988e6dfd",
+      "file_relpath": "data/display/T_pilot/dsp_ba662043130a5677988e6dfd.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 231,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_ce7940440ccb57b49e53f948",
+      "display_asset_id": "dsp_a48a413bb9b25d4c9df20f4b",
+      "file_relpath": "data/display/T_pilot/dsp_a48a413bb9b25d4c9df20f4b.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 232,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 0,
+      "source_id": "src_c832552c3cef5a809485dbef",
+      "display_asset_id": "dsp_6ee54cd17cbb557ca1d122be",
+      "file_relpath": "data/display/C_pool/dsp_6ee54cd17cbb557ca1d122be.png",
+      "geometry": {
+        "content_x": 661,
+        "content_y": 0,
+        "content_w": 1238,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 233,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_e876ed61a0d3549d8e83e2ad",
+      "display_asset_id": "dsp_c319b0f7d2195ba7b1705751",
+      "file_relpath": "data/display/T_pilot/dsp_c319b0f7d2195ba7b1705751.png",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": true,
+      "repeat_of_source_id": "src_e876ed61a0d3549d8e83e2ad",
+      "seq": 234,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 0,
+      "source_id": "src_cbb99b5226915bfab7c85ee7",
+      "display_asset_id": "dsp_5e009170b5495a1dada4f592",
+      "file_relpath": "data/display/C_pool/dsp_5e009170b5495a1dada4f592.png",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 235,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 1,
+      "source_id": "src_cf16a77faa2554919faaa2cb",
+      "display_asset_id": "dsp_d3a66ae365675b5ab2e1b019",
+      "file_relpath": "data/display/C_pool/dsp_d3a66ae365675b5ab2e1b019.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 236,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_4576f4bfdcaf58f19198f6ec",
+      "display_asset_id": "dsp_8b8e3473c9df5bc0b7a088f9",
+      "file_relpath": "data/display/T_pilot/dsp_8b8e3473c9df5bc0b7a088f9.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 237,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_42831972eab75f5db5ecc3c3",
+      "display_asset_id": "dsp_5c1b5a2402315777afe64579",
+      "file_relpath": "data/display/T_pilot/dsp_5c1b5a2402315777afe64579.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 238,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_cf3592fa0a005e95b233475e",
+      "display_asset_id": "dsp_ee0c87b5671b5ad0bef5077e",
+      "file_relpath": "data/display/T_pilot/dsp_ee0c87b5671b5ad0bef5077e.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 239,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 0,
+      "source_id": "src_ccd82221250c52478af09e7f",
+      "display_asset_id": "dsp_4a07a2f8a4cd55869686f750",
+      "file_relpath": "data/display/C_pool/dsp_4a07a2f8a4cd55869686f750.png",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 240,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 0,
+      "source_id": "src_ee088bad0a4552f4a6d7c908",
+      "display_asset_id": "dsp_025eead4498c524bacee9c36",
+      "file_relpath": "data/display/C_pool/dsp_025eead4498c524bacee9c36.png",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 241,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_f77363f85ac9524ea07550ee",
+      "display_asset_id": "dsp_3e00afb184a35ccb9e951634",
+      "file_relpath": "data/display/T_pilot/dsp_3e00afb184a35ccb9e951634.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 242,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_52f6d4c32b205fb0aacac064",
+      "display_asset_id": "dsp_985572e8e7ea50718574178d",
+      "file_relpath": "data/display/T_pilot/dsp_985572e8e7ea50718574178d.png",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 243,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 1,
+      "source_id": "src_4ec9a398d7135f6684445271",
+      "display_asset_id": "dsp_9d9c1eae686c5ffc8ce79c8c",
+      "file_relpath": "data/display/C_pool/dsp_9d9c1eae686c5ffc8ce79c8c.png",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 244,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 1,
+      "source_id": "src_23d42bd3f213518b84202b9a",
+      "display_asset_id": "dsp_d2aaf1ec866e5a80a82f8d0c",
+      "file_relpath": "data/display/C_pool/dsp_d2aaf1ec866e5a80a82f8d0c.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 245,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_1f42abcb2f615ab78ef8aed7",
+      "display_asset_id": "dsp_5209d9819286502f9fddc205",
+      "file_relpath": "data/display/T_pilot/dsp_5209d9819286502f9fddc205.png",
+      "geometry": {
+        "content_x": 716,
+        "content_y": 0,
+        "content_w": 1127,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 246,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 1,
+      "source_id": "src_ac2699ef9d7756299bcf1c99",
+      "display_asset_id": "dsp_7596d34ddfd9512da9b5e95f",
+      "file_relpath": "data/display/C_pool/dsp_7596d34ddfd9512da9b5e95f.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 247,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 0,
+      "source_id": "src_b08ed99fda49581e82960fcf",
+      "display_asset_id": "dsp_b230812ecad9563cb67717e0",
+      "file_relpath": "data/display/C_pool/dsp_b230812ecad9563cb67717e0.png",
+      "geometry": {
+        "content_x": 341,
+        "content_y": 0,
+        "content_w": 1877,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 248,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 1,
+      "source_id": "src_40554bdc0da752cba2c2636c",
+      "display_asset_id": "dsp_625d5bd0438b514594f91279",
+      "file_relpath": "data/display/C_pool/dsp_625d5bd0438b514594f91279.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 249,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_3bc89d8c60215f2095120ce1",
+      "display_asset_id": "dsp_b156ae6748ed523b8f97a4a6",
+      "file_relpath": "data/display/T_pilot/dsp_b156ae6748ed523b8f97a4a6.png",
+      "geometry": {
+        "content_x": 548,
+        "content_y": 0,
+        "content_w": 1463,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 250,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 0,
+      "source_id": "src_7a384c6134fa56409a97bc46",
+      "display_asset_id": "dsp_104a6df4c0e25dbea0e62ec9",
+      "file_relpath": "data/display/C_pool/dsp_104a6df4c0e25dbea0e62ec9.png",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 251,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_7d518c85b2cd5a77a8255f72",
+      "display_asset_id": "dsp_03c8e7cde0375094bf4bd2ec",
+      "file_relpath": "data/display/T_pilot/dsp_03c8e7cde0375094bf4bd2ec.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 252,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_a567574705bb5a50a491b3f0",
+      "display_asset_id": "dsp_b37e1697697054d997e8091c",
+      "file_relpath": "data/display/T_pilot/dsp_b37e1697697054d997e8091c.png",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 253,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_9b99bc95572e51d28a2c6857",
+      "display_asset_id": "dsp_e0703054d58b5b59941b3fd9",
+      "file_relpath": "data/display/T_pilot/dsp_e0703054d58b5b59941b3fd9.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 254,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_f290456c01025e47ac218580",
+      "display_asset_id": "dsp_22132ce436dc58ddad559d83",
+      "file_relpath": "data/display/T_pilot/dsp_22132ce436dc58ddad559d83.png",
+      "geometry": {
+        "content_x": 544,
+        "content_y": 0,
+        "content_w": 1472,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 255,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_9fc687e1317b5fd182257ebf",
+      "display_asset_id": "dsp_da6e9e7cd7945958924a2a06",
+      "file_relpath": "data/display/T_pilot/dsp_da6e9e7cd7945958924a2a06.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": true,
+      "repeat_of_source_id": "src_9fc687e1317b5fd182257ebf",
+      "seq": 256,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_ff86a7897b2d5a6cbe916502",
+      "display_asset_id": "dsp_51f2bf85e3605047ad23ec77",
+      "file_relpath": "data/display/T_pilot/dsp_51f2bf85e3605047ad23ec77.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 257,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 1,
+      "source_id": "src_40554bdc0da752cba2c2636c",
+      "display_asset_id": "dsp_625d5bd0438b514594f91279",
+      "file_relpath": "data/display/C_pool/dsp_625d5bd0438b514594f91279.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": true,
+      "repeat_of_source_id": "src_40554bdc0da752cba2c2636c",
+      "seq": 258,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 1,
+      "source_id": "src_4ec9a398d7135f6684445271",
+      "display_asset_id": "dsp_9d9c1eae686c5ffc8ce79c8c",
+      "file_relpath": "data/display/C_pool/dsp_9d9c1eae686c5ffc8ce79c8c.png",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": true,
+      "repeat_of_source_id": "src_4ec9a398d7135f6684445271",
+      "seq": 259,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 0,
+      "source_id": "src_ee088bad0a4552f4a6d7c908",
+      "display_asset_id": "dsp_025eead4498c524bacee9c36",
+      "file_relpath": "data/display/C_pool/dsp_025eead4498c524bacee9c36.png",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": true,
+      "repeat_of_source_id": "src_ee088bad0a4552f4a6d7c908",
+      "seq": 260,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 1,
+      "source_id": "src_42831972eab75f5db5ecc3c3",
+      "display_asset_id": "dsp_5c1b5a2402315777afe64579",
+      "file_relpath": "data/display/T_pilot/dsp_5c1b5a2402315777afe64579.png",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": true,
+      "repeat_of_source_id": "src_42831972eab75f5db5ecc3c3",
+      "seq": 261,
+      "session": "main"
+    },
+    {
+      "role": "C_pool",
+      "label": 0,
+      "source_id": "src_20384334ff245c1eaca68ce3",
+      "display_asset_id": "dsp_8896b5abd5135e0cae1db1cb",
+      "file_relpath": "data/display/C_pool/dsp_8896b5abd5135e0cae1db1cb.png",
+      "geometry": {
+        "content_x": 699,
+        "content_y": 0,
+        "content_w": 1161,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": true,
+      "repeat_of_source_id": "src_20384334ff245c1eaca68ce3",
+      "seq": 262,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_8fa3938326ca5b61a531edcd",
+      "display_asset_id": "dsp_49ab732f87f65bfcbb2a3617",
+      "file_relpath": "data/display/T_pilot/dsp_49ab732f87f65bfcbb2a3617.png",
+      "geometry": {
+        "content_x": 740,
+        "content_y": 0,
+        "content_w": 1080,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": true,
+      "repeat_of_source_id": "src_8fa3938326ca5b61a531edcd",
+      "seq": 263,
+      "session": "main"
+    },
+    {
+      "role": "T_pilot",
+      "label": 0,
+      "source_id": "src_ac6cd52732c556e4bb44e460",
+      "display_asset_id": "dsp_81bf37125a0856f1b094a287",
+      "file_relpath": "data/display/T_pilot/dsp_81bf37125a0856f1b094a287.png",
+      "geometry": {
+        "content_x": 554,
+        "content_y": 0,
+        "content_w": 1452,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "is_repeat": true,
+      "repeat_of_source_id": "src_ac6cd52732c556e4bb44e460",
+      "seq": 264,
+      "session": "main"
+    }
+  ]
+}

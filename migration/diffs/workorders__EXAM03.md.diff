@@ -1,0 +1,25 @@
+--- original/workorders/EXAM03.md
++++ harness/workorders/EXAM03.md
+@@ -1,9 +1,11 @@
+-# 工作卡（未执行）
++# DeepSeek Harness工作卡（未执行）
++
++> 执行前读取同目录上一级的 `DeepSeek_Harness_执行说明.md`；本卡的预测、工作、验收和失败分支沿用原版，不授权越级执行。实体拍摄和批准仍由人工完成；独立评价不得与开发共享未揭示测试上下文。
+ 
+ ### EXAM03｜数字代理与冻结检测器基线
+ 
+ **日程**：第2周 D8—D10。**依赖**：EXAM01, EXAM02。  
+-**负责人**：模型Codex＋统计Codex；整合负责人统一接口。  
++**负责人**：DeepSeek Harness模型角色＋统计角色；整合角色统一接口。  
+ **目标问题**：数字评测会选择谁，这个选择程序是否明确且可复算？
+ 
+ #### PREDICTION03｜事前预期与推理/选型范围
+@@ -22,7 +24,7 @@
+ 5. 在读取T_pilot成绩之前实现并冻结实拍直接、固定简单收缩、可选受限重权和残差对照的算法与合法调参范围。拟合参数可以随后由C_pool产生。
+ 6. 用预先建立的夹具验证同模型差为0、单调分数映射保AUC、数字加权不等于pooled AUC、缺失不补分数。
+ 
+-**Codex实现范围**：digital_registry、detector_adapter、predict、digital_score、selector、freeze_rules；输出可审计的输入/预处理/权重哈希。
++**DeepSeek Harness实现范围**：digital_registry、detector_adapter、predict、digital_score、selector、freeze_rules；输出可审计的输入/预处理/权重哈希。
+ 
+ #### RESULT03｜应交付的真实产物
+ 

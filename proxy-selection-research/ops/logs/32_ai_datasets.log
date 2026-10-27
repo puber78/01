@@ -1,0 +1,30 @@
+QUERY GenImage
+    andrew-zhu/genimage-dataset 8 False
+    RoadQAQ/Gen_Images 16 False
+    e8035669/GenImage 13 False
+    jzousz/GenImage 13808 False
+    shimei123/Genimage 157 False
+    lilaspourpre/gen_image_wordnet 17 False
+QUERY genimage
+    andrew-zhu/genimage-dataset 8 False
+    RoadQAQ/Gen_Images 16 False
+    e8035669/GenImage 13 False
+    jzousz/GenImage 13808 False
+    shimei123/Genimage 157 False
+    lilaspourpre/gen_image_wordnet 17 False
+QUERY community-forensics
+    OwensLab/CommunityForensics-Small 7243 False
+    OwensLab/CommunityForensics 6093 False
+    OwensLab/CommunityForensics-Eval 10452 False
+    34data/communityforensics-real 95 False
+    34data/communityforensics-fake 104 False
+    Irma-5/CommunityForensics-eval_subset_500 11 False
+QUERY b-free
+    ksw1/free-b-pp 2 False
+QUERY fake image dataset
+    InfImagine/FakeImageDataset 1147 False
+    hiddeneye04/FakeImageDataset 25 False
+    shive1234/FakeImageDataset 23 False
+yuweiyang/GenImage FAIL HTTP Error 401: Unauthorized
+elsaEU/ELSA1M_track2 FAIL HTTP Error 401: Unauthorized
+InfImagine/FakeImageDataset -> [('ImageData', 0), ('MetaData', 0), ('.gitattributes', 2396), ('AestheticQuality.zip', 2648568), ('README.md', 6394), ('hpbench.zip', 276104167)]

@@ -1,0 +1,39 @@
+# Confirmatory contract (EXAM06/07). Intentionally EMPTY: sample sizes, the
+# single primary claim, comparator family and resource caps must be approved by
+# the research principal after the pilot. Nothing here may be filled by the
+# executor as if approved.
+version: confirmatory_v1
+created_at: "2026-10-26T00:00:00Z"
+approval_status: EMPTY_PENDING_EXAM06
+
+primary_claim:
+  statement: null
+  endpoint: null
+  estimand: null
+  candidate_rule: null
+  baseline_rules: []
+  target_population: null
+  environment: null
+  budget_groups: null
+  delta_auc: null
+  epsilon_auc: null
+  multiplicity_plan: null
+
+samples:
+  n_C_confirm: null
+  n_D_sel_confirm: null
+  n_T_confirm: null
+  actual_captures: null
+
+resources:
+  capture_cost_cap: null
+  compute_cost_cap: null
+  devices: []
+
+external_panels:
+  registered: []
+  note: EXAM08 scope must be registered here before reveal
+
+approval:
+  approver: null
+  approved_at: null

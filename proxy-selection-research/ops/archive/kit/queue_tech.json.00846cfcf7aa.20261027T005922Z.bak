@@ -1,0 +1,426 @@
+{
+  "session": "tech",
+  "created_at": "2026-10-26T09:56:32Z",
+  "items": [
+    {
+      "role": "TECH",
+      "label": 0,
+      "source_id": "src_14922abc342b53ad941159fe",
+      "display_asset_id": "dsp_819a48085be053aca4774463",
+      "file_relpath": "data/display/TECH/dsp_819a48085be053aca4774463.png",
+      "display_sha256": "b04eb47df2a3d32f4fec8776e1ef5e2f17655b182c6e37affbb4952de7151637",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 1,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 1,
+      "source_id": "src_9e8c3c38619351c9808c0868",
+      "display_asset_id": "dsp_004e2825ad6558ce9c6ac0f7",
+      "file_relpath": "data/display/TECH/dsp_004e2825ad6558ce9c6ac0f7.png",
+      "display_sha256": "d2691697c49df8d4db4bdc93cc516c0f32b9a55215db0bc02c0c43861a2b914e",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 2,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 1,
+      "source_id": "src_211e768730b35ae89d53dff9",
+      "display_asset_id": "dsp_e1805ddce175535a889bd507",
+      "file_relpath": "data/display/TECH/dsp_e1805ddce175535a889bd507.png",
+      "display_sha256": "6c51488a168f72cc767e3c10a138055a9609ddc84857f38b154fdf57b87714f3",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 3,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 0,
+      "source_id": "src_900ab77f7d5b5bc09fe81c73",
+      "display_asset_id": "dsp_818295237ff05a6e9fc90cbd",
+      "file_relpath": "data/display/TECH/dsp_818295237ff05a6e9fc90cbd.png",
+      "display_sha256": "745aa3344baccd50622f0cbea20b146ef350a998242f3e909c14a69ececa9539",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 4,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 1,
+      "source_id": "src_6efee9d8ce85549ba71ccc16",
+      "display_asset_id": "dsp_95aa2850fe1354cbb88a7021",
+      "file_relpath": "data/display/TECH/dsp_95aa2850fe1354cbb88a7021.png",
+      "display_sha256": "4b515b8b4e89b5d1f8e8ff5e55f40d8cddd8294d038f96222066aed3840dac32",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 5,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 0,
+      "source_id": "src_37263150eb7856fcbac149c6",
+      "display_asset_id": "dsp_22bdb2219ba5593c90be9218",
+      "file_relpath": "data/display/TECH/dsp_22bdb2219ba5593c90be9218.png",
+      "display_sha256": "f02a0115440b8e625da80896e93bff37b35c448903dd8f56139861bfa1a22269",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 6,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 0,
+      "source_id": "src_7b441c1dbf8657519fae99e0",
+      "display_asset_id": "dsp_12b696a571c05f218b5e619d",
+      "file_relpath": "data/display/TECH/dsp_12b696a571c05f218b5e619d.png",
+      "display_sha256": "1fd17960f4c58af3997d631aef42354aad80de099e084b0e2a0beb6928104abc",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 7,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 1,
+      "source_id": "src_6209a05850ac59ebaa65a0ed",
+      "display_asset_id": "dsp_23a29864adce510eaf8c6c48",
+      "file_relpath": "data/display/TECH/dsp_23a29864adce510eaf8c6c48.png",
+      "display_sha256": "39bde2fd05dd010e1624faf53442ed7e69bbe501e2d533665389e3a9f8e21377",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 8,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 0,
+      "source_id": "src_a60410bcaa6d56279256ff0d",
+      "display_asset_id": "dsp_12396571f9b656d2a70d7c20",
+      "file_relpath": "data/display/TECH/dsp_12396571f9b656d2a70d7c20.png",
+      "display_sha256": "6b24907bf076b32fd959d434861d5f19b7207d9f9c158e84e3ac4d4abbd684a3",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 9,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 1,
+      "source_id": "src_379a5b0b757f5c498ab45df4",
+      "display_asset_id": "dsp_c59ddfbe208b50acadf0e4aa",
+      "file_relpath": "data/display/TECH/dsp_c59ddfbe208b50acadf0e4aa.png",
+      "display_sha256": "f8201661674968d1b5a6333768c0c4c8dfdc84dd3ce0797496a11df891f4c225",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 10,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 1,
+      "source_id": "src_6209a05850ac59ebaa65a0ed",
+      "display_asset_id": "dsp_23a29864adce510eaf8c6c48",
+      "file_relpath": "data/display/TECH/dsp_23a29864adce510eaf8c6c48.png",
+      "display_sha256": "39bde2fd05dd010e1624faf53442ed7e69bbe501e2d533665389e3a9f8e21377",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": true,
+      "repeat_of_source_id": "src_6209a05850ac59ebaa65a0ed",
+      "seq": 11,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 1,
+      "source_id": "src_95ee85ef94f451ae874c2931",
+      "display_asset_id": "dsp_e9173cf0094a5d98a42bc99f",
+      "file_relpath": "data/display/TECH/dsp_e9173cf0094a5d98a42bc99f.png",
+      "display_sha256": "681b32b39a424a83dfbb1e19ead063f135c6d741ed99c44b61debb2d21355164",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 12,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 0,
+      "source_id": "src_222533f7368153bcaae51122",
+      "display_asset_id": "dsp_1f389c56205c5bd9b70a9d79",
+      "file_relpath": "data/display/TECH/dsp_1f389c56205c5bd9b70a9d79.png",
+      "display_sha256": "a60bf90ceb4f2c08e6a23c099adce476878b46d2801019a9be0a738edbf4e5d4",
+      "geometry": {
+        "content_x": 740,
+        "content_y": 0,
+        "content_w": 1080,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 13,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 1,
+      "source_id": "src_a4b32a65906a552d996d6714",
+      "display_asset_id": "dsp_1287544fce9a57aead897ca1",
+      "file_relpath": "data/display/TECH/dsp_1287544fce9a57aead897ca1.png",
+      "display_sha256": "c0ae6ce4e44cd0d7017e6af634e467ce77571a2dcf775eb32c64a201119b84fe",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 14,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 0,
+      "source_id": "src_0ab1226990a850fc82cc7eff",
+      "display_asset_id": "dsp_dd66d272cc0451c18082c31a",
+      "file_relpath": "data/display/TECH/dsp_dd66d272cc0451c18082c31a.png",
+      "display_sha256": "05652911cc726b78f714b216a08ecf6256edd287a6d3085ae8e717678842fcf5",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 15,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 0,
+      "source_id": "src_37263150eb7856fcbac149c6",
+      "display_asset_id": "dsp_22bdb2219ba5593c90be9218",
+      "file_relpath": "data/display/TECH/dsp_22bdb2219ba5593c90be9218.png",
+      "display_sha256": "f02a0115440b8e625da80896e93bff37b35c448903dd8f56139861bfa1a22269",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": true,
+      "repeat_of_source_id": "src_37263150eb7856fcbac149c6",
+      "seq": 16,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 0,
+      "source_id": "src_b20f999982ed50da97535022",
+      "display_asset_id": "dsp_5805a3d2de5b50faadc3e8ed",
+      "file_relpath": "data/display/TECH/dsp_5805a3d2de5b50faadc3e8ed.png",
+      "display_sha256": "1a014d82b96ef5c1eba12688217fcd94baf29a71c5dd81c530b0a9d347ff84a0",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 17,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 1,
+      "source_id": "src_a4b32a65906a552d996d6714",
+      "display_asset_id": "dsp_1287544fce9a57aead897ca1",
+      "file_relpath": "data/display/TECH/dsp_1287544fce9a57aead897ca1.png",
+      "display_sha256": "c0ae6ce4e44cd0d7017e6af634e467ce77571a2dcf775eb32c64a201119b84fe",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": true,
+      "repeat_of_source_id": "src_a4b32a65906a552d996d6714",
+      "seq": 18,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 1,
+      "source_id": "src_26355f2411845a1abe2a0a28",
+      "display_asset_id": "dsp_51d303212cc75a3fa973b31a",
+      "file_relpath": "data/display/TECH/dsp_51d303212cc75a3fa973b31a.png",
+      "display_sha256": "c46596b087af63c80626a05518e73430df8ceb661b23e92443f4afc1b27507fc",
+      "geometry": {
+        "content_x": 560,
+        "content_y": 0,
+        "content_w": 1440,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": false,
+      "repeat_of_source_id": null,
+      "seq": 19,
+      "session": "tech"
+    },
+    {
+      "role": "TECH",
+      "label": 0,
+      "source_id": "src_0ab1226990a850fc82cc7eff",
+      "display_asset_id": "dsp_dd66d272cc0451c18082c31a",
+      "file_relpath": "data/display/TECH/dsp_dd66d272cc0451c18082c31a.png",
+      "display_sha256": "05652911cc726b78f714b216a08ecf6256edd287a6d3085ae8e717678842fcf5",
+      "geometry": {
+        "content_x": 320,
+        "content_y": 0,
+        "content_w": 1920,
+        "content_h": 1440,
+        "canvas_w": 2560,
+        "canvas_h": 1440
+      },
+      "repeat_of": null,
+      "is_repeat": true,
+      "repeat_of_source_id": "src_0ab1226990a850fc82cc7eff",
+      "seq": 20,
+      "session": "tech"
+    }
+  ]
+}

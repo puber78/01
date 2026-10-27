@@ -1,0 +1,25 @@
+--- original/workorders/EXAM02.md
++++ harness/workorders/EXAM02.md
+@@ -1,9 +1,11 @@
+-# 工作卡（未执行）
++# DeepSeek Harness工作卡（未执行）
++
++> 执行前读取同目录上一级的 `DeepSeek_Harness_执行说明.md`；本卡的预测、工作、验收和失败分支沿用原版，不授权越级执行。实体拍摄和批准仍由人工完成；独立评价不得与开发共享未揭示测试上下文。
+ 
+ ### EXAM02｜来源入库、设备小样与采集协议
+ 
+ **日程**：第1—2周 D4—D7。**依赖**：EXAM01。  
+-**负责人**：人工采集人员＋数据Codex；负责人确认来源、许可与样本配额。  
++**负责人**：人工采集人员＋DeepSeek Harness数据角色；研究负责人确认来源、许可与样本配额。  
+ **目标问题**：同源数字／实拍材料是否可追溯，采集是否可以按既定协议执行？
+ 
+ #### PREDICTION02｜事前预期与推理/选型范围
+@@ -23,7 +25,7 @@
+ 6. 生成随机交错的来源展示队列；先固定首个合格主拍的选择规则，再安排约10%的预定重拍。测试图像、真实评分和来源关联由评价角色保管。
+ 7. 登记D_sel实际整数规模、两类数量和选择依据；原案未规定该数，本大纲不代填一个声称具有统计依据的数值。
+ 
+-**Codex实现范围**：ingest、lineage_check、display_asset、capture_queue、capture_import、capture_qc；保存sources、splits、display_assets、captures和cost_ledger。
++**DeepSeek Harness实现范围**：ingest、lineage_check、display_asset、capture_queue、capture_import、capture_qc；保存sources、splits、display_assets、captures和cost_ledger。
+ 
+ #### RESULT02｜应交付的真实产物
+ 

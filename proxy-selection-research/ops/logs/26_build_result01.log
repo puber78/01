@@ -1,0 +1,1 @@
+{"execution_status": "FAIL", "checks": ["A1_provenance", "A2_tests", "A3_real_chain", "A4_fp32_tolerance", "A5_id_contract"]}

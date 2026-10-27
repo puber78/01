@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\Users\34823\Desktop\数字代理选型_DeepSeek_Harness_执行包\proxy-selection-research\ops\tools\verify_kit.py", line 16, in <module>
+    q = json.loads(p.read_text("utf-8"))
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\34823\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\34823\AppData\Local\Programs\Python\Python311\Lib\pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\ops\\captures\\kit\\queue_tech.json'

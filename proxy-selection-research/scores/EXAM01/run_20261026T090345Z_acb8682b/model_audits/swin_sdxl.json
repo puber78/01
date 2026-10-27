@@ -1,0 +1,66 @@
+{
+  "model_key": "swin_sdxl",
+  "status": "OK",
+  "registry": {
+    "model_key": "swin_sdxl",
+    "repo": "organika/sdxl-detector",
+    "revision": "b37fede8562cb72b89ec201c0987f96ba21b518a",
+    "architecture": "SwinForImageClassification",
+    "basis": "Swin transformer fine-tuned to separate SDXL-generated images from real photographs",
+    "license": "cc-by-nc-3.0",
+    "ai_label": null,
+    "batch_size": 16,
+    "notes": "Widely used public baseline; non-commercial license recorded."
+  },
+  "metadata": {
+    "repo": "organika/sdxl-detector",
+    "requested_revision": "b37fede8562cb72b89ec201c0987f96ba21b518a",
+    "snapshot_dir": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\models\\hf_cache\\models--organika--sdxl-detector\\snapshots\\b37fede8562cb72b89ec201c0987f96ba21b518a",
+    "snapshot_files": {
+      "config.json": "731cf7e077d0176022a89c542169bbee58a0b77ad7311d77deb1c5720c2ab6c2",
+      "model.safetensors": "f8809f67fbbf4b455b13aaebf2bfc90192e7c6c881fd8efce0eb51fba9a06e5c",
+      "preprocessor_config.json": "5f37dd312775083c2ca1bd85b5935989cb128eb7f803aae5ba88381e4a4786b5",
+      "README.md": "dd47998a64d2155bcd9b6a4034d1ae4ecbf413342dbeb735f273e51cd8a58276",
+      "training_args.bin": "2c3b96869fa178d23b082e5a6d9bf48ec5865f979c6391b5ae6571ff0f37b681",
+      "training_params.json": "b8ec96bb6c2ca61ccd7aab820a92e8fa627033d4032fcf5910a8373e644c2a63"
+    },
+    "id2label": {
+      "0": "artificial",
+      "1": "human"
+    },
+    "ai_index": 0,
+    "ai_label": "artificial",
+    "architectures": [
+      "SwinForImageClassification"
+    ],
+    "num_parameters": 86745274,
+    "device": "cuda:0",
+    "batch_size": 16
+  },
+  "config_fingerprint": {
+    "repo": "organika/sdxl-detector",
+    "revision": "b37fede8562cb72b89ec201c0987f96ba21b518a",
+    "checkpoint_hash": "bd2f1777adb6d3f466f668b9ee8fa1d80642c31ae92c293d327592401f1267b6",
+    "preprocess_hash": "dde54b7b3a23101cbbf0b500b979342ff5c70a8553d3256be4d6d8a447fde528",
+    "orientation": "higher_is_ai",
+    "ai_index": 0,
+    "batch_size": 16,
+    "device": "cuda:0"
+  },
+  "load_seconds": 8.71,
+  "score_seconds": 1.7,
+  "n_scored": 80,
+  "n_failed": 0,
+  "tech_auc": 0.826875,
+  "tech_n": 80,
+  "repeat_inference": {
+    "n": 32,
+    "batch_size": 16,
+    "max_abs_diff": 0.0,
+    "max_allowed": 1.0486501812934877e-05,
+    "atol": 1e-06,
+    "rtol": 1e-05,
+    "passes": true,
+    "seconds": 0.57
+  }
+}

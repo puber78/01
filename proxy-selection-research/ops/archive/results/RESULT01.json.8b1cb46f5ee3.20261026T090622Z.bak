@@ -1,0 +1,160 @@
+{
+  "result_id": "RESULT01",
+  "exam_id": "EXAM01",
+  "prediction_id": "PREDICTION01",
+  "execution_status": "FAIL",
+  "scientific_status": "NOT_APPLICABLE",
+  "next_decision": "BLOCKED",
+  "run_ids": [
+    "run_20261026T090345Z_acb8682b",
+    "run_20261026T090446Z_5b2604df"
+  ],
+  "evidence_paths": [
+    "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\scores\\EXAM01\\run_20261026T090345Z_acb8682b\\technical_scores.parquet",
+    "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\scores\\EXAM01\\run_20261026T090345Z_acb8682b\\technical_metrics.json",
+    "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\scores\\EXAM01\\run_20261026T090345Z_acb8682b\\technical_auc_table.csv",
+    "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\ops\\logs\\09_pytest_exam01.log",
+    "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\ops\\logs\\18_pytest_confirm.log",
+    "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\manifests\\workspace_inventory_run_20261026T090446Z_5b2604df.csv",
+    "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\predictions\\PREDICTION01.yaml"
+  ],
+  "source_hashes": [
+    "fcf5c8359b70b43cc932d5a74644ba918af983d7f3910f0bf1560e895481ab6b",
+    "7e0bfba730810a2c0d361b97943db0028de0ec9929bca468eef1460b7a6f1766",
+    "2b37ab38ebf0a5d9fa2388589188a96131fe90514fe594808f44b5821dd0a6e8"
+  ],
+  "actual_start": "run_20261026T090345Z_acb8682b",
+  "actual_end": "2026-10-26T09:05:01Z",
+  "estimate": null,
+  "ci_low": null,
+  "ci_high": null,
+  "n_source_groups": 80,
+  "n_captures": 0,
+  "capture_budget_visible_to_rule": 0,
+  "research_total_cost": {
+    "physical_captures": 0,
+    "gpu_seconds_scoring": 9.7,
+    "note": "compute-only cost; no physical capture incurred"
+  },
+  "failure_count": 0,
+  "frozen_protocol_hash": "7e0bfba730810a2c0d361b97943db0028de0ec9929bca468eef1460b7a6f1766",
+  "deviations": [
+    {
+      "id": "D1",
+      "what": "pip stalled while downloading the 2.5 GB torch wheel",
+      "impact": "none on results; wheel fetched by range download, integrity-checked, then installed",
+      "evidence": "ops/logs/01_pip_install.log, ops/logs/02_torch_download.log"
+    },
+    {
+      "id": "D2",
+      "what": "huggingface.co unreachable; HF mirror used; datasets library cache path too long for this workspace",
+      "impact": "datasets read via HTTP-range parquet reader instead of datasets streaming",
+      "evidence": "src/proxy_selection/hfstream.py, ops/logs/12_hfstream_test.log"
+    },
+    {
+      "id": "D3",
+      "what": "one mirror 429 during shard sampling; retried with backoff and 4-shard sampling",
+      "impact": "technical sample composition recorded; no scientific data affected",
+      "evidence": "ops/logs/16_fetch_tech_samples.log, ops/logs/17_fetch_tech_samples.log"
+    }
+  ],
+  "scope_limitations": [
+    "TECH-only: no physical screen recapture was performed; no camera/screen device is registered yet.",
+    "No T_pilot / T_confirm data exists, so no selection loss, no interval and no scientific status is claimed.",
+    "Candidate checkpoints are public and frozen; their technical-sample AUC is engineering audit only, not a selection criterion.",
+    "All numeric thresholds remain DRAFT_UNAPPROVED pending principal review."
+  ],
+  "checks": [
+    {
+      "id": "A1_provenance",
+      "requirement": "关键数据字段和原始文件的来源记录覆盖率100%；原始文件覆盖0；跨角色越权0",
+      "provenance_coverage": 1.0,
+      "content_hash_match_coverage": 1.0,
+      "original_package_unchanged": true,
+      "guard_overwrite_violations": 1,
+      "cross_role_reads": 0,
+      "passed": false,
+      "evidence": [
+        "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\data\\raw\\TECH\\technical_sources.csv",
+        "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\manifests\\workspace_inventory_run_20261026T090446Z_5b2604df.csv",
+        "ops/logs/06_input_verify.log"
+      ]
+    },
+    {
+      "id": "A2_tests",
+      "requirement": "已登记关键测试通过率100%、未解决严重错误0；每个PASS指向实际日志",
+      "pytest_initial": {
+        "passed": 0,
+        "failed": 0,
+        "log": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\ops\\logs\\09_pytest_exam01.log",
+        "raw_tail": [
+          "\u00006\u00008\u0000 \u0000p\u0000a\u0000s\u0000s\u0000e\u0000d\u0000 \u0000i\u0000n\u0000 \u00001\u0000.\u00008\u00000\u0000s\u0000",
+          "\u0000",
+          "\u0000"
+        ]
+      },
+      "pytest_reconfirm": {
+        "passed": 68,
+        "failed": 0,
+        "exit_code": 0,
+        "log": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\ops\\logs\\18_pytest_confirm.log"
+      },
+      "passed": false,
+      "evidence": [
+        "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\ops\\logs\\09_pytest_exam01.log",
+        "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\ops\\logs\\18_pytest_confirm.log"
+      ]
+    },
+    {
+      "id": "A3_real_chain",
+      "requirement": "至少1个真实检查点在独立技术样本上完成读取→预处理→分数→统计",
+      "n_models": 6,
+      "n_samples": 80,
+      "n_score_rows": 480,
+      "failed_rows": 0,
+      "tech_auc": {
+        "swin_sdxl": 0.826875,
+        "siglip_ai_human": 0.84875,
+        "convnext_ai": 0.508125,
+        "resnet_ai": 0.3121875,
+        "swinv2_deploy": 0.92125,
+        "vit_ai_real": 0.524375
+      },
+      "passed": true,
+      "evidence": [
+        "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\scores\\EXAM01\\run_20261026T090345Z_acb8682b\\technical_scores.parquet",
+        "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\scores\\EXAM01\\run_20261026T090345Z_acb8682b\\technical_metrics.json"
+      ]
+    },
+    {
+      "id": "A4_fp32_tolerance",
+      "requirement": "|s1-s2| <= 1e-6 + 1e-5*|s2| for repeated inference",
+      "max_abs_diff": 0.0,
+      "max_allowed": 1.0999611377716066e-05,
+      "models_measured": 6,
+      "passed": true,
+      "evidence": [
+        "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\scores\\EXAM01\\run_20261026T090345Z_acb8682b\\technical_metrics.json"
+      ]
+    },
+    {
+      "id": "A5_id_contract",
+      "requirement": "来源/谱系/显示/捕获/样本/模型/规则/运行 ID 合同与三角色访问表",
+      "id_validity_coverage": 0.0,
+      "passed": false,
+      "evidence": [
+        "src/proxy_selection/contracts/ids.py",
+        "src/proxy_selection/contracts/roles.py",
+        "tests/test_contracts.py"
+      ]
+    }
+  ],
+  "workspace": {
+    "n_files": 306,
+    "bytes": 3221500116,
+    "csv": "C:\\Users\\34823\\Desktop\\数字代理选型_DeepSeek_Harness_执行包\\proxy-selection-research\\manifests\\workspace_inventory_run_20261026T090446Z_5b2604df.csv"
+  },
+  "reviewed_by": null,
+  "approved_next_stage": null,
+  "note": "EXAM01 engineering-only result. A PASS means the contracts, tests, real-checkpoint chain and tolerance measurements are real and reproducible; it does not mean any detector is good or that EXAM02 can start without physical capture resources."
+}

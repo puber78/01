@@ -1,0 +1,25 @@
+--- original/workorders/EXAM04.md
++++ harness/workorders/EXAM04.md
+@@ -1,9 +1,11 @@
+-# 工作卡（未执行）
++# DeepSeek Harness工作卡（未执行）
++
++> 执行前读取同目录上一级的 `DeepSeek_Harness_执行说明.md`；本卡的预测、工作、验收和失败分支沿用原版，不授权越级执行。实体拍摄和批准仍由人工完成；独立评价不得与开发共享未揭示测试上下文。
+ 
+ ### EXAM04｜配对实拍与盲侧预测完整性
+ 
+ **日程**：第3周 D11—D15。**依赖**：EXAM03。  
+-**负责人**：人工采集人员＋数据保管/评价角色；Codex做导入、QC和独立推理。  
++**负责人**：人工采集人员＋独立数据保管/评价角色；DeepSeek Harness在各自授权环境执行导入、QC、校准与盲侧推理。  
+ **目标问题**：能否形成不受模型得分选择影响的真实配对先导，并在揭示检查组前完成合法校准？
+ 
+ #### PREDICTION04｜事前预期与推理/选型范围
+@@ -22,7 +24,7 @@
+ 5. 按已冻结算法在C_pool拟合合法参数、选择模型，落盘每个预算和重放的选择及配置哈希。质量匹配读取的真实图像也计入预算。
+ 6. 评价角色完成T_pilot推理并隔离存放。开发方在全部选择、分析代码和主要对比冻结前不得看到T_pilot评分、质量分布或可用于调参的诊断。
+ 
+-**Codex实现范围**：capture_import、physical_predict、budget_sampler、fit_selectors、freeze_choices、cost_ledger；不训练新检测器主干。
++**DeepSeek Harness实现范围**：capture_import、physical_predict、budget_sampler、fit_selectors、freeze_choices、cost_ledger；不训练新检测器主干。
+ 
+ #### RESULT04｜应交付的真实产物
+ 
